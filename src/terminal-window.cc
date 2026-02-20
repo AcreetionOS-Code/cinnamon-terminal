@@ -955,7 +955,9 @@ action_help_cb (GSimpleAction *action,
                 GVariant *parameter,
                 gpointer user_data)
 {
-  terminal_util_show_help (nullptr);
+  TerminalWindow *window = (TerminalWindow*)user_data;
+
+  terminal_util_show_help (GTK_WINDOW(window), nullptr);
 }
 
 static void

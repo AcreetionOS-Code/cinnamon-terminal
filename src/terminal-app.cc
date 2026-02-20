@@ -845,7 +845,7 @@ app_menu_help_cb (GSimpleAction *action,
                   GVariant      *parameter,
                   gpointer       user_data)
 {
-  terminal_util_show_help (nullptr);
+  terminal_util_show_help (nullptr, nullptr);
 }
 
 static void

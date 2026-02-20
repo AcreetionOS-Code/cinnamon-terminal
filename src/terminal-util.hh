@@ -29,7 +29,8 @@ void terminal_util_show_error_dialog (GtkWindow *transient_parent,
                                       GError *error,
                                       const char *message_format, ...) G_GNUC_PRINTF(4, 5);
 
-void terminal_util_show_help (const char *topic);
+void terminal_util_show_help (GtkWindow *transient_parent,
+                              const char *topic);
 
 void terminal_util_show_about (void);
 
