@@ -44,7 +44,7 @@ static void
 prefs_dialog_help_button_clicked_cb (GtkWidget *button,
                                      PrefData *data)
 {
-  terminal_util_show_help ("pref");
+  terminal_util_show_help (GTK_WINDOW(data->dialog), "pref");
 }
 
 static void
@@ -945,6 +945,11 @@ done:
   }
 
   terminal_util_dialog_focus_widget (the_pref_data->builder, widget_name);
+
+  {
+    gs_unref_object auto window_group = gtk_window_group_new ();
+    gtk_window_group_add_window (window_group, GTK_WINDOW (the_pref_data->dialog));
+  }
 
   gtk_window_present_with_time(GTK_WINDOW(the_pref_data->dialog), timestamp);
 }
