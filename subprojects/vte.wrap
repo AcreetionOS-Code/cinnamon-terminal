@@ -15,7 +15,7 @@
 
 [wrap-git]
 depth = 1
-revision = vte-0-80
+revision = vte-0-84
 url = https://gitlab.gnome.org/GNOME/vte.git
 
 [provide]
