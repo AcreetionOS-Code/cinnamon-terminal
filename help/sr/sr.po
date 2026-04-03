@@ -1,0 +1,3548 @@
+# Serbian translation for gnome-terminal.
+# Copyright (C) 2026 gnome-terminal's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-terminal package.
+# Марко Костић <marko.m.kostic@gmail.com>,  2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-terminal gtk3\n"
+"POT-Creation-Date: 2026-03-28 19:52+0000\n"
+"PO-Revision-Date: 2026-04-03 21:18+0200\n"
+"Last-Translator: Марко Костић <marko.m.kostic@gmail.com>\n"
+"Language-Team: Serbian <Serbian>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : "
+"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 3.9\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Марко Костић <marko.m.kostic@gmail.com>\n"
+"Превод на српски језик https://гном.срб"
+
+#. (itstool) path: credit/name
+#: C/adv-keyboard-shortcuts.page:14 C/app-colors.page:12 C/app-cursor.page:13
+#: C/app-fonts.page:12 C/app-fullscreen.page:12 C/app-terminal-sizes.page:12
+#: C/app-zoom.page:11 C/gs-execute-commands.page:14 C/gs-tabs.page:13
+#: C/index.page:13 C/introduction.page:12 C/overview.page:9 C/pref-bell.page:12
+#: C/pref-custom-exit.page:14 C/pref-custom-command.page:15
+#: C/pref-keyboard-access.page:13 C/pref-login-shell.page:13
+#: C/pref-menubar.page:14 C/pref-profiles.page:12 C/pref-scrolling.page:13
+#: C/prob-reset.page:12 C/txt-copy-paste.page:12 C/txt-links.page:10
+#: C/txt-search.page:12 C/txt-select-text.page:13
+msgid "Sindhu S"
+msgstr "Синду С"
+
+#. (itstool) path: credit/years
+#: C/adv-keyboard-shortcuts.page:16 C/adv-keyboard-shortcuts.page:21
+#: C/adv-keyboard-shortcuts.page:26 C/app-colors.page:14 C/app-colors.page:19
+#: C/app-colors.page:24 C/app-cursor.page:15 C/app-cursor.page:20
+#: C/app-cursor.page:25 C/app-fonts.page:14 C/app-fonts.page:19
+#: C/app-fonts.page:24 C/app-fullscreen.page:14 C/app-fullscreen.page:19
+#: C/app-fullscreen.page:24 C/app-terminal-sizes.page:14
+#: C/app-terminal-sizes.page:19 C/app-terminal-sizes.page:24 C/app-zoom.page:13
+#: C/app-zoom.page:18 C/app-zoom.page:23 C/gs-execute-commands.page:16
+#: C/gs-execute-commands.page:26 C/gs-tabs.page:15 C/gs-tabs.page:25
+#: C/index.page:15 C/index.page:20 C/index.page:25 C/introduction.page:14
+#: C/introduction.page:19 C/introduction.page:24 C/overview.page:11
+#: C/overview.page:16 C/pref-bell.page:14 C/pref-bell.page:19
+#: C/pref-bell.page:24 C/pref-custom-exit.page:16 C/pref-custom-exit.page:26
+#: C/pref-custom-command.page:17 C/pref-custom-command.page:27
+#: C/pref-keyboard-access.page:15 C/pref-keyboard-access.page:20
+#: C/pref-keyboard-access.page:25 C/pref-login-shell.page:15
+#: C/pref-login-shell.page:25 C/pref-menubar.page:16 C/pref-menubar.page:21
+#: C/pref-menubar.page:26 C/pref-profiles.page:14 C/pref-profiles.page:24
+#: C/pref-scrolling.page:15 C/prob-reset.page:14 C/prob-reset.page:19
+#: C/txt-copy-paste.page:14 C/txt-copy-paste.page:19 C/txt-copy-paste.page:24
+#: C/txt-links.page:12 C/txt-links.page:17 C/txt-links.page:22
+#: C/txt-search.page:14 C/txt-search.page:19 C/txt-search.page:24
+#: C/txt-select-text.page:15
+msgid "2013"
+msgstr "2013"
+
+#. (itstool) path: credit/name
+#: C/adv-keyboard-shortcuts.page:19 C/app-colors.page:17 C/app-cursor.page:18
+#: C/app-fonts.page:17 C/app-fullscreen.page:17 C/app-terminal-sizes.page:17
+#: C/app-zoom.page:16 C/gs-execute-commands.page:19 C/gs-tabs.page:18
+#: C/index.page:18 C/introduction.page:17 C/overview.page:14 C/pref.page:9
+#: C/pref-bell.page:17 C/pref-custom-exit.page:19 C/pref-custom-command.page:20
+#: C/pref-keyboard-access.page:18 C/pref-login-shell.page:18
+#: C/pref-menubar.page:19 C/pref-profiles.page:17
+#: C/pref-profile-char-width.page:12 C/pref-profile-encoding.page:12
+#: C/pref-scrolling.page:18 C/pref-tab-window.page:14 C/pref-user-input.page:11
+#: C/prob-reset.page:17 C/txt-copy-paste.page:17 C/txt-links.page:15
+#: C/txt-search.page:17 C/txt-select-text.page:18
+msgid "Ekaterina Gerasimova"
+msgstr "Екатерина Герасимова"
+
+#. (itstool) path: credit/name
+#: C/adv-keyboard-shortcuts.page:24 C/app-colors.page:22 C/app-cursor.page:23
+#: C/app-fonts.page:22 C/app-fullscreen.page:22 C/app-terminal-sizes.page:22
+#: C/app-zoom.page:21 C/gs-execute-commands.page:24 C/gs-tabs.page:23
+#: C/introduction.page:22 C/pref-bell.page:22 C/pref-custom-exit.page:24
+#: C/pref-custom-command.page:25 C/pref-keyboard-access.page:23
+#: C/pref-login-shell.page:23 C/pref-menubar.page:24 C/pref-profiles.page:22
+#: C/txt-copy-paste.page:22 C/txt-links.page:20 C/txt-search.page:22
+msgid "Michael Hill"
+msgstr "Мајкл Хил"
+
+#. (itstool) path: info/desc
+#: C/adv-keyboard-shortcuts.page:31
+msgid "View and edit keyboard shortcuts."
+msgstr "Прегледајте и уредите пречице на тастатури."
+
+#. (itstool) path: page/title
+#: C/adv-keyboard-shortcuts.page:34
+msgid "Keyboard shortcuts"
+msgstr "Пречице на тастатури"
+
+#. (itstool) path: page/p
+#: C/adv-keyboard-shortcuts.page:36
+msgid ""
+"Keyboard shortcuts are combinations of keys that allow you to perform "
+"actions, such as opening the settings dialog or accessing a feature inside "
+"<app>Terminal</app> quickly. These shortcuts can be modified to suit your "
+"preferences."
+msgstr ""
+"Пречице на тастатури су комбинације тастера које вам омогућавају да брзо "
+"извршавате радње, као што су отварање прозорчета са подешавањима или "
+"приступање некој функцији унутар <app>Терминала</app>. Ове пречице се могу "
+"изменити како би одговарале вашим жељама."
+
+#. (itstool) path: page/p
+#: C/adv-keyboard-shortcuts.page:41
+msgid "To change a keyboard shortcut:"
+msgstr "Да промените пречицу на тастатури:"
+
+#. (itstool) path: item/p
+#: C/adv-keyboard-shortcuts.page:44 C/app-colors.page:46 C/app-colors.page:76
+#: C/app-colors.page:108 C/app-colors.page:177 C/app-cursor.page:41
+#: C/app-fonts.page:46 C/app-fonts.page:70 C/app-fonts.page:115
+#: C/app-terminal-sizes.page:81 C/pref-bell.page:41 C/pref-custom-exit.page:42
+#: C/pref-custom-command.page:48 C/pref-keyboard-access.page:65
+#: C/pref-keyboard-access.page:87 C/pref-login-shell.page:77
+#: C/pref-profile-char-width.page:40 C/pref-profile-encoding.page:38
+#: C/pref-scrolling.page:41 C/pref-scrolling.page:68 C/pref-scrolling.page:93
+#: C/pref-scrolling.page:117 C/pref-scrolling.page:141
+#: C/pref-tab-window.page:56
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui "
+"style=\"menuitem\">Preferences</gui>."
+msgstr ""
+"Притисните дугме изборника у горњем десном углу прозора и изаберите <gui "
+"style=\"menuitem\">Подешавања</gui>."
+
+#. (itstool) path: item/p
+#: C/adv-keyboard-shortcuts.page:48
+msgid "In the sidebar, select <gui>Shortcuts</gui>."
+msgstr "У бочној површи изаберите <gui>Пречице</gui>."
+
+#. (itstool) path: item/p
+#: C/adv-keyboard-shortcuts.page:51
+msgid "Make sure <gui style=\"checkbox\">Enable shortcuts</gui> is selected."
+msgstr ""
+"Проверите да ли је изабрана кућица <gui style=\"checkbox\">Омогући пречице</"
+"gui>."
+
+#. (itstool) path: item/p
+#: C/adv-keyboard-shortcuts.page:54
+msgid "Select the shortcut that you wish to edit by clicking on it."
+msgstr "Изаберите пречицу коју желите да уредите тако што ћете кликнути на њу."
+
+#. (itstool) path: item/p
+#: C/adv-keyboard-shortcuts.page:57
+msgid ""
+"Once the shortcut is selected, click on the shortcut key combination to edit "
+"it."
+msgstr ""
+"Када је пречица изабрана, кликните на комбинацију тастера пречице да бисте "
+"је уредили."
+
+#. (itstool) path: item/p
+#: C/adv-keyboard-shortcuts.page:61
+msgid ""
+"Press your desired shortcut key combination as you would enter it to use it. "
+"The keys that you can use include <key>Alt</key>, <key>Alt Gr</key>, "
+"<key>Ctrl</key>, <key>Shift</key>, <key>Super</key>, number and letter keys."
+msgstr ""
+"Притисните жељену комбинацију тастера пречице онако како бисте је унели да "
+"бисте је користили. Тастери које можете користити укључују <key>Alt</key>, "
+"<key>Alt Gr</key>, <key>Ctrl</key>, <key>Shift</key>, <key>Super</key>, "
+"тастере са бројевима и словима."
+
+#. (itstool) path: note/p
+#: C/adv-keyboard-shortcuts.page:66
+msgid ""
+"Mnemonic key combinations, such as <keyseq><key>Alt</key> <key>F</key></"
+"keyseq> will not work."
+msgstr ""
+"Мнемоничке комбинације тастера, као што је <keyseq><key>Alt</key> <key>F</"
+"key></keyseq>, неће радити."
+
+#. (itstool) path: item/p
+#: C/adv-keyboard-shortcuts.page:71
+msgid ""
+"Once you have entered your new shortcut, it will automatically be saved and "
+"you should see it in the list next to the corresponding action."
+msgstr ""
+"Након што унесете нову пречицу, она ће бити аутоматски сачувана и требало би "
+"да је видите на списку поред одговарајуће радње."
+
+#. (itstool) path: note/p
+#: C/adv-keyboard-shortcuts.page:78
+msgid ""
+"To disable a shortcut, edit it and press the <key>Backspace</key> instead of "
+"the new shortcut."
+msgstr ""
+"Да онемогућите пречицу, уредите је и притисните <key>Backspace</key> уместо "
+"нове пречице."
+
+#. (itstool) path: section/title
+#: C/adv-keyboard-shortcuts.page:83
+msgid "<gui style=\"menu\">File</gui> shortcuts"
+msgstr "Пречице изборника <gui style=\"menu\">Датотека</gui>"
+
+#. (itstool) path: section/p
+#: C/adv-keyboard-shortcuts.page:85 C/adv-keyboard-shortcuts.page:118
+#: C/adv-keyboard-shortcuts.page:143 C/adv-keyboard-shortcuts.page:176
+#: C/adv-keyboard-shortcuts.page:209
+msgid "The default shortcuts for options in this section are:"
+msgstr "Подразумеване пречице за опције у овом одељку су:"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:90 C/adv-keyboard-shortcuts.page:123
+#: C/adv-keyboard-shortcuts.page:148 C/adv-keyboard-shortcuts.page:181
+#: C/adv-keyboard-shortcuts.page:214 C/adv-keyboard-shortcuts.page:287
+msgid "Action"
+msgstr "Радња"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:91 C/adv-keyboard-shortcuts.page:124
+#: C/adv-keyboard-shortcuts.page:149 C/adv-keyboard-shortcuts.page:182
+#: C/adv-keyboard-shortcuts.page:215 C/adv-keyboard-shortcuts.page:288
+msgid "Keyboard Shortcut"
+msgstr "Пречица на тастатури"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:96
+msgid "New Tab"
+msgstr "Нови језичак"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:97
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>T</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>T</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:100
+msgid "New Window"
+msgstr "Нови прозор"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:101
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>N</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>N</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:104
+msgid "Close Tab"
+msgstr "Затвори језичак"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:105
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>W</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>W</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:108
+msgid "Close Window"
+msgstr "Затвори прозор"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:109
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>Q</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>Q</key></keyseq>"
+
+#. (itstool) path: section/title
+#: C/adv-keyboard-shortcuts.page:116
+msgid "<gui style=\"menu\">Edit</gui> shortcuts"
+msgstr "Пречице менија <gui style=\"menu\">Уреди</gui>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:129
+msgid "Copy"
+msgstr "Копирај"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:130
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>C</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>C</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:133
+msgid "Paste"
+msgstr "Налепи"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:134
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>V</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>V</key></keyseq>"
+
+#. (itstool) path: section/title
+#: C/adv-keyboard-shortcuts.page:141
+msgid "<gui style=\"menu\">View</gui> shortcuts"
+msgstr "Пречице менија <gui style=\"menu\">Преглед</gui>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:154
+msgid "Full Screen"
+msgstr "Користи цео екран"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:155
+msgid "<key>F11</key>"
+msgstr "<key>F11</key>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:158
+msgid "Zoom In"
+msgstr "Увећај"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:159
+msgid "<keyseq><key>Ctrl</key><key>+</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>+</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:162
+msgid "Zoom Out"
+msgstr "Умањи"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:163
+msgid "<keyseq><key>Ctrl</key><key>-</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>-</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:166
+msgid "Normal Size"
+msgstr "Normal Size"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:167
+msgid "<keyseq><key>Ctrl</key><key>0</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>0</key></keyseq>"
+
+#. (itstool) path: section/title
+#: C/adv-keyboard-shortcuts.page:174
+msgid "<gui style=\"menu\">Search</gui> shortcuts"
+msgstr "Пречице менија <gui style=\"menu\">Тражи</gui>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:187
+msgid "Find"
+msgstr "Пронађи"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:188
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:191
+msgid "Find Next"
+msgstr "Нађи следеће"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:192
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:195
+msgid "Find Previous"
+msgstr "Нађи претходно"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:196
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>H</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>H</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:199
+msgid "Clear Highlight"
+msgstr "Уклони истицање"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:200
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>J</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>J</key></keyseq>"
+
+#. (itstool) path: section/title
+#: C/adv-keyboard-shortcuts.page:207
+msgid "Tab shortcuts"
+msgstr "Пречице језичака"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:220
+msgid "Switch to Previous Tab"
+msgstr "Пређи на претходни језичак"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:221
+msgid "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:224
+msgid "Switch to Next Tab"
+msgstr "Пређи на следећи језичак"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:225
+msgid "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:228
+msgid "Move Tab to the Left"
+msgstr "Премести језичак на лево"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:229
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>Page Up</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>Page Up</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:232
+msgid "Move Tab to the Right"
+msgstr "Премести језичак на десно"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:233
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>Page Down</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>Page Down</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:236
+msgid "Switch to Tab 1"
+msgstr "Пребаци се на језичак 1"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:237
+msgid "<keyseq><key>Alt</key><key>1</key></keyseq>"
+msgstr "<keyseq><key>Alt</key><key>1</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:240
+msgid "Switch to Tab 2"
+msgstr "Пребаци се на језичак 2"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:241
+msgid "<keyseq><key>Alt</key><key>2</key></keyseq>"
+msgstr "<keyseq><key>Alt</key><key>2</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:244
+msgid "Switch to Tab 3"
+msgstr "Пребаци се на језичак 3"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:245
+msgid "<keyseq><key>Alt</key><key>3</key></keyseq>"
+msgstr "<keyseq><key>Alt</key><key>3</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:248
+msgid "Switch to Tab 4"
+msgstr "Пребаци се на језичак 4"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:249
+msgid "<keyseq><key>Alt</key><key>4</key></keyseq>"
+msgstr "<keyseq><key>Alt</key><key>4</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:252
+msgid "Switch to Tab 5"
+msgstr "Пребаци се на језичак 5"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:253
+msgid "<keyseq><key>Alt</key><key>5</key></keyseq>"
+msgstr "<keyseq><key>Alt</key><key>5</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:256
+msgid "Switch to Tab 6"
+msgstr "Пребаци се на језичак 6"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:257
+msgid "<keyseq><key>Alt</key><key>6</key></keyseq>"
+msgstr "<keyseq><key>Alt</key><key>6</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:260
+msgid "Switch to Tab 7"
+msgstr "Пребаци на језичак 7"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:261
+msgid "<keyseq><key>Alt</key><key>7</key></keyseq>"
+msgstr "<keyseq><key>Alt</key><key>7</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:264
+msgid "Switch to Tab 8"
+msgstr "Пребаци на језичак 8"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:265
+msgid "<keyseq><key>Alt</key><key>8</key></keyseq>"
+msgstr "<keyseq><key>Alt</key><key>8</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:268
+msgid "Switch to Tab 9"
+msgstr "Пребаци на језичак 9"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:269
+msgid "<keyseq><key>Alt</key><key>9</key></keyseq>"
+msgstr "<keyseq><key>Alt</key><key>9</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:272
+msgid "Switch to Tab 10"
+msgstr "Пребаци на језичак 10"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:273
+msgid "<keyseq><key>Alt</key><key>0</key></keyseq>"
+msgstr "<keyseq><key>Alt</key><key>0</key></keyseq>"
+
+#. (itstool) path: section/title
+#: C/adv-keyboard-shortcuts.page:280
+msgid "Other"
+msgstr "Остало"
+
+#. (itstool) path: section/p
+#: C/adv-keyboard-shortcuts.page:282
+msgid "There are also some shortcuts that cannot be edited:"
+msgstr "Постоје и неке пречице које се не могу уређивати:"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:293
+msgid "Scroll up by one line"
+msgstr "Померите се горе за један ред"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:294
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>Up</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>Up</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:297
+msgid "Scroll down by one line"
+msgstr "Померите се доле за један ред"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:298
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>Down</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>Down</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:301
+msgid "Scroll up by one page"
+msgstr "Померите се горе за једну страницу"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:302
+msgid "<keyseq><key>Shift</key><key>Page Up</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Page Up</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:305
+msgid "Scroll down by one page"
+msgstr "Померите се доле за једну страницу"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:306
+msgid "<keyseq><key>Shift</key><key>Page Down</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Page Down</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:309
+msgid "Scroll to the top"
+msgstr "Премакните на врх"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:310
+msgid "<keyseq><key>Shift</key><key>Home</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Home</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:313
+msgid "Scroll to the bottom"
+msgstr "Премакните на дно"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:314
+msgid "<keyseq><key>Shift</key><key>End</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>End</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:317
+msgid "Scroll to previous command"
+msgstr "Премакните на претходну наредбу"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:318
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>Left</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>Left</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:321
+msgid "Scroll to next command"
+msgstr "Премакните на следећу наредбу"
+
+#. (itstool) path: td/p
+#: C/adv-keyboard-shortcuts.page:322
+msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>Right</key></keyseq>"
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>Right</key></keyseq>"
+
+#. (itstool) path: info/desc
+#: C/app-colors.page:29
+msgid "Change colors and backgrounds."
+msgstr "Измените боје и позадине."
+
+#. (itstool) path: page/title
+#: C/app-colors.page:33
+msgid "Color schemes"
+msgstr "Шеме боја"
+
+#. (itstool) path: page/p
+#: C/app-colors.page:35
+msgid ""
+"If you do not like the default <app>Terminal</app> theme, you may want to "
+"change the colors that are used for the text and background. You can use "
+"colors from your theme, select one of the presets or use a custom scheme."
+msgstr ""
+"Ако вам се не допада подразумевана тема <app>Терминала</app>, можда ћете "
+"желети да промените боје које се користе за текст и позадину. Можете "
+"користити боје из ваше системске теме, изабрати неко од предподешавања или "
+"користити произвољну шему."
+
+#. (itstool) path: section/title
+#: C/app-colors.page:40
+msgid "Use colors from your system theme"
+msgstr "Користите боје из ваше системске теме"
+
+#. (itstool) path: section/p
+#: C/app-colors.page:42
+msgid "To use colors from the system theme:"
+msgstr "Да користите боје из системске теме:"
+
+#. (itstool) path: item/p
+#: C/app-colors.page:50 C/app-colors.page:80 C/app-colors.page:112
+#: C/app-colors.page:181 C/app-cursor.page:45 C/app-fonts.page:50
+#: C/app-fonts.page:74 C/app-fonts.page:119 C/app-terminal-sizes.page:85
+#: C/pref-bell.page:45 C/pref-custom-exit.page:46 C/pref-custom-command.page:52
+#: C/pref-login-shell.page:81 C/pref-profile-char-width.page:44
+#: C/pref-profile-encoding.page:42 C/pref-scrolling.page:45
+#: C/pref-scrolling.page:72 C/pref-scrolling.page:97 C/pref-scrolling.page:121
+#: C/pref-scrolling.page:145
+msgid ""
+"In the sidebar, select your current profile in the <gui>Profiles</gui> "
+"section."
+msgstr ""
+"У бочној површи изаберите ваш тренутни профил у одељку <gui>Профили</gui>."
+
+#. (itstool) path: item/p
+#: C/app-colors.page:54 C/app-colors.page:84 C/app-colors.page:116
+#: C/app-colors.page:185
+msgid "Select <gui style=\"tab\">Colors</gui>."
+msgstr "Изаберите језичак <gui style=\"tab\">Боје</gui>."
+
+#. (itstool) path: item/p
+#: C/app-colors.page:57
+msgid ""
+"Check <gui style=\"checkbox\">Use colors from system theme</gui>. The "
+"changes will be applied automatically."
+msgstr ""
+"Означите кућицу <gui style=\"checkbox\">Користи боје из системске теме</"
+"gui>. Измене ће бити примењене аутоматски."
+
+#. (itstool) path: section/title
+#: C/app-colors.page:65
+msgid "Built-in schemes"
+msgstr "Уграђене шеме"
+
+#. (itstool) path: section/p
+#: C/app-colors.page:67
+msgid ""
+"You can choose one of the built-in color schemes: <gui>Black on light "
+"yellow</gui>, <gui>Black on white</gui>, <gui>Gray on black</gui>, "
+"<gui>GNOME light</gui>, <gui>GNOME dark</gui>, <gui>Green on black</gui>, "
+"<gui>White on black</gui>, <gui>Tango light</gui>, <gui>Tango dark</gui>, "
+"<gui>Solarized light</gui>, <gui>Solarized dark</gui>. To set any of the "
+"built-in schemes:"
+msgstr ""
+"Можете изабрати једну од уграђених шема боја: <gui>Црна на светло жутој</"
+"gui>, <gui>Црна на белој</gui>, <gui>Сива на црној</gui>, <gui>Гном светла</"
+"gui>, <gui>Гном тамна</gui>, <gui>Зелена на црној</gui>, <gui>Бела на црној</"
+"gui>, <gui>Танго светла</gui>, <gui>Танго тамна</gui>, <gui>Осветљена "
+"светла</gui>, <gui>Осветљена тамна</gui>. Да поставите било коју од "
+"уграђених шема:"
+
+#. (itstool) path: item/p
+#: C/app-colors.page:87
+msgid ""
+"Make sure that <gui style=\"checkbox\">Use colors from system theme</gui> is "
+"unchecked. Choose the desired color scheme from <gui>Built-in schemes</gui>. "
+"Color scheme choices are applied automatically."
+msgstr ""
+"Уверите се да је кућица <gui style=\"checkbox\">Користи боје из системске "
+"теме</gui> одштиклирана. Изаберите жељену шему боја из <gui>Уграђених шема</"
+"gui>. Избори шема боја се примењују аутоматски."
+
+#. (itstool) path: note/p
+#: C/app-colors.page:92
+msgid ""
+"Applications can choose to use a color from the palette rather than the "
+"specified bold color."
+msgstr ""
+"Програми могу изабрати да користе боју из палете радије него наведену "
+"подебљану боју."
+
+#. (itstool) path: section/title
+#: C/app-colors.page:101
+msgid "Custom color scheme"
+msgstr "Произвољна шема боја"
+
+#. (itstool) path: section/p
+#: C/app-colors.page:103
+msgid ""
+"You can use custom colors for the text and background in <app>Terminal</app>:"
+msgstr ""
+"Можете користити произвољне боје за текст и позадину у <app>Терминалу</app>:"
+
+#. (itstool) path: item/p
+#: C/app-colors.page:119
+msgid ""
+"Make sure that <gui style=\"checkbox\">Use colors from system theme</gui> is "
+"unchecked. Select <gui>Custom</gui> from the <gui>Built-in schemes</gui> "
+"drop-down list."
+msgstr ""
+"Проверите да ли је поље <gui style=\"checkbox\">Користи боје из системске "
+"теме</gui> одштиклирано. Изаберите <gui>Произвољно</gui> из падајућег списка "
+"<gui>Уграђене шеме</gui>."
+
+#. (itstool) path: item/p
+#: C/app-colors.page:124
+msgid "Click on the color you would like to change."
+msgstr "Кликните на боју коју желите да промените."
+
+#. (itstool) path: item/p
+#: C/app-colors.page:127
+msgid ""
+"Choose your desired color from the color sample and click <gui "
+"style=\"button\">Select</gui>."
+msgstr ""
+"Изаберите жељену боју из узорка боја и кликните на <gui "
+"style=\"button\">Изабери</gui>."
+
+#. (itstool) path: item/p
+#: C/app-colors.page:129
+msgid "You can choose the desired color in the following ways:"
+msgstr "Жељену боју можете изабрати на следеће начине:"
+
+#. (itstool) path: item/p
+#: C/app-colors.page:132
+msgid "Input the hexadecimal color code in the input box."
+msgstr "Унесите хексадецимални код боје у поље за унос."
+
+#. (itstool) path: item/p
+#: C/app-colors.page:135
+msgid ""
+"Drag the slider on the left to adjust the colors and click on the desired "
+"color in the color selection area."
+msgstr ""
+"Превуците клизач на лево да подесите боје и кликните на жељену боју у "
+"области за избор боја."
+
+#. (itstool) path: item/p
+#: C/app-colors.page:139
+msgid "Your changes will be saved automatically."
+msgstr "Ваше измене ће бити аутоматски сачуване."
+
+#. (itstool) path: note/p
+#: C/app-colors.page:144
+msgid ""
+"You may also alter a color when you have chosen a built-in scheme by "
+"clicking on the color sample block. Once changed, your selection in the "
+"built-in scheme menu will change to <gui>Custom</gui>."
+msgstr ""
+"Такође можете изменити боју када изаберете неку од уграђених шема тако што "
+"ћете кликнути на блок са узорком боје. Након што је измените, ваш избор у "
+"менију уграђених шема ће се променити у <gui>Произвољно</gui>."
+
+#. (itstool) path: note/p
+#: C/app-colors.page:150
+msgid ""
+"Traditionally terminal emulators offered a 16 color palette, this is what "
+"you can alter here. <app>Terminal</app> supports an extended set of 256 "
+"colors, but the additional 240 colors cannot be edited here."
+msgstr ""
+"Традиционално су емулатори терминала нудили палету од 16 боја, и то је оно "
+"што овде можете изменити. <app>Терминал</app> подржава проширени скуп од 256 "
+"боја, али се додатних 240 боја не могу овде уређивати."
+
+#. (itstool) path: note/p
+#: C/app-colors.page:154
+msgid ""
+"<app>Terminal</app> even offers direct access to over 16 million colors, "
+"this is called “true color” mode."
+msgstr ""
+"<app>Терминал</app> чак нуди директан приступ за преко 16 милиона боја, што "
+"се назива режимом „true color“."
+
+#. (itstool) path: note/p
+#: C/app-colors.page:157
+msgid ""
+"If the changes you make to the palette do not seem to have an effect, "
+"presumably the contents you see consist of such extended palette colors or "
+"true colors, rather than the 16 base colors."
+msgstr ""
+"Ако се чини да измене које сте направили у палети немају ефекта, вероватно "
+"се садржај који видите састоји од таквих боја из проширене палете или „true "
+"color“ боја, уместо од 16 основних боја."
+
+#. (itstool) path: section/title
+#: C/app-colors.page:165
+msgid "Bright colors for bold text"
+msgstr "Светле боје за подебљани текст"
+
+#. (itstool) path: section/p
+#: C/app-colors.page:167
+msgid ""
+"Traditionally terminals didn't clearly separate bold font weight from "
+"intense colors, often both of them were enabled together. Recent "
+"improvements, such as the introduction of true color support, and certain "
+"color schemes (e.g. Solarized) made it desirable to separate the two "
+"concepts, that is, make the brightness independent from the font weight."
+msgstr ""
+"Традиционално терминали нису јасно раздвајали подебљану тежину фонта од "
+"јаких боја, често су обе биле омогућене заједно. Недавна побољшања, као што "
+"су увођење подршке за „true color“ и одређене шеме боја (нпр. Solarized), "
+"учинила су пожељним раздвајање ова два концепта, односно чињење осветљености "
+"независном од тежине фонта."
+
+#. (itstool) path: section/p
+#: C/app-colors.page:173
+msgid "In order to choose your preferred behavior:"
+msgstr "Да бисте изабрали жељено понашање:"
+
+#. (itstool) path: item/p
+#: C/app-colors.page:188
+msgid ""
+"Disable <gui>Show bold text in bright colors</gui> for the new default "
+"behavior, the complete separation of color intensity and font weight; or "
+"enable this option for improved backward compatibility."
+msgstr ""
+"Онемогућите <gui>Прикажи подебљани текст у светлим бојама</gui> за ново "
+"подразумевано понашање, потпуно раздвајање интензитета боје и тежине фонта; "
+"или омогућите ову опцију за бољу повратну компатибилност."
+
+#. (itstool) path: info/desc
+#: C/app-cursor.page:30
+msgid "Select different cursor style."
+msgstr "Изаберите другачији стил курсора."
+
+#. (itstool) path: page/title
+#: C/app-cursor.page:34
+msgid "Change cursor"
+msgstr "Промена курсора"
+
+#. (itstool) path: page/p
+#: C/app-cursor.page:36
+msgid ""
+"<app>Terminal</app> has three cursors from which to choose. To select your "
+"preferred cursor:"
+msgstr ""
+"<app>Терминал</app> има три курсора између којих можете бирати. Да бисте "
+"изабрали жељени курсор:"
+
+#. (itstool) path: item/p
+#: C/app-cursor.page:49 C/app-fonts.page:54 C/app-fonts.page:78
+#: C/app-fonts.page:123 C/app-terminal-sizes.page:89 C/pref-bell.page:49
+msgid "Select <gui style=\"tab\">Text</gui>."
+msgstr "Изаберите <gui style=\"tab\">Текст</gui>."
+
+#. (itstool) path: item/p
+#: C/app-cursor.page:52
+msgid ""
+"Choose your desired cursor shape from the drop down list next to <gui>Cursor "
+"shape</gui>. You can choose from the following options:"
+msgstr ""
+"Изаберите жељени облик курсора из падајућег списка поред ставке <gui>Облик "
+"курсора</gui>. Можете изабрати неку од следећих опција:"
+
+#. (itstool) path: item/p
+#: C/app-cursor.page:57
+msgid "<gui>Block</gui>"
+msgstr "<gui>Блок</gui>"
+
+#. (itstool) path: item/p
+#: C/app-cursor.page:61
+msgid "<gui>I-Beam</gui>"
+msgstr "<gui>Усправна црта</gui>"
+
+#. (itstool) path: item/p
+#: C/app-cursor.page:65
+msgid "<gui>Underline</gui>"
+msgstr "<gui>Подвучено</gui>"
+
+#. (itstool) path: item/p
+#: C/app-cursor.page:68
+msgid "Upon selection of the cursor, your choice is saved automatically."
+msgstr "Након избора курсора, ваш избор се аутоматски чува."
+
+#. (itstool) path: info/desc
+#: C/app-fonts.page:29
+msgid "Use system fonts or choose a custom font for your terminal."
+msgstr ""
+"Користите системске фонтове или изаберите произвољни фонт за ваш терминал."
+
+#. (itstool) path: page/title
+#: C/app-fonts.page:33
+msgid "Change font and style"
+msgstr "Промена фонта и стила"
+
+#. (itstool) path: page/p
+#: C/app-fonts.page:35
+msgid ""
+"When you work with a lot of <app>Terminal</app> text, you may want to change "
+"the default font to your preference. You have the following options:"
+msgstr ""
+"Када радите са пуно текста у <app>Терминалу</app>, можда ћете желети да "
+"промените подразумевани фонт према вашим жељама. На располагању су вам "
+"следеће опције:"
+
+#. (itstool) path: section/title
+#: C/app-fonts.page:40
+msgid "System fixed width font"
+msgstr "Системски фонт фиксне ширине"
+
+#. (itstool) path: section/p
+#: C/app-fonts.page:42
+msgid "To use system default fonts:"
+msgstr "Да бисте користили подразумеване системске фонтове:"
+
+#. (itstool) path: item/p
+#: C/app-fonts.page:57
+msgid "Unselect <gui style=\"checkbox\">Custom font</gui>."
+msgstr "Поништите избор поља <gui style=\"checkbox\">Произвољни фонт</gui>."
+
+#. (itstool) path: section/title
+#: C/app-fonts.page:64
+msgid "Set a custom font"
+msgstr "Постављање произвољног фонта"
+
+#. (itstool) path: section/p
+#: C/app-fonts.page:66
+msgid "To set a custom font and size:"
+msgstr "Да бисте поставили произвољни фонт и величину:"
+
+#. (itstool) path: item/p
+#: C/app-fonts.page:81
+msgid "Select <gui style=\"checkbox\">Custom font</gui>."
+msgstr "Изаберите поље <gui style=\"checkbox\">Произвољни фонт</gui>."
+
+#. (itstool) path: item/p
+#: C/app-fonts.page:84
+msgid "Click on the button next to <gui style=\"checkbox\">Custom font</gui>."
+msgstr ""
+"Кликните на дугме поред поља <gui style=\"checkbox\">Произвољни фонт</gui>."
+
+#. (itstool) path: item/p
+#: C/app-fonts.page:87
+msgid ""
+"Type the name of your desired font into the search field or browse the list "
+"of fonts."
+msgstr ""
+"Укуцајте назив жељеног фонта у поље за претрагу или прегледајте списак "
+"фонтова."
+
+#. (itstool) path: item/p
+#: C/app-fonts.page:91
+msgid ""
+"Drag the slider that is below the font list to set the font size. "
+"Alternatively, you can type in the font size into the field next to the "
+"slider, or click on <gui style=\"button\">+</gui> to increase font size or "
+"<gui style=\"button\">-</gui> to decrease selected font size."
+msgstr ""
+"Превуците клизач који се налази испод списка фонтова да бисте поставили "
+"величину фонта. Алтернативно, можете укуцати величину фонта у поље поред "
+"клизача, или кликнути на <gui style=\"button\">+</gui> да повећате величину "
+"фонта или на <gui style=\"button\">-</gui> да смањите величину изабраног "
+"фонта."
+
+#. (itstool) path: item/p
+#: C/app-fonts.page:97
+msgid ""
+"Click <gui style=\"button\">Select</gui> to apply your changes. To discard "
+"changes and go back to previous dialog, click <gui style=\"button\">Cancel</"
+"gui>."
+msgstr ""
+"Кликните на <gui style=\"button\">Изабери</gui> да примените измене. Да "
+"бисте одбацили измене и вратили се на претходно прозорче, кликните на <gui "
+"style=\"button\">Откажи</gui>."
+
+#. (itstool) path: section/title
+#: C/app-fonts.page:106
+msgid "Line spacing and character spacing"
+msgstr "Размак између редова и размак између знакова"
+
+#. (itstool) path: section/p
+#: C/app-fonts.page:108
+msgid ""
+"<app>Terminal</app> allows you to pull its characters apart for improved "
+"readability. Line spacing and character spacing can be adjusted from 1.0 "
+"(the regular look) to 2.0 (“double spacing”), including fractional values in "
+"between."
+msgstr ""
+"<app>Терминал</app> вам омогућава да размакнете његове знакове ради боље "
+"читљивости. Размак између редова и знакове се може подесити од 1.0 (обичан "
+"изглед) до 2.0 („двоструки размак“), укључујући и разломљене вредности "
+"између."
+
+#. (itstool) path: item/p
+#: C/app-fonts.page:126
+msgid "Go to the <gui>Cell spacing</gui> setting."
+msgstr "Идите на подешавање <gui>Размак ћелија</gui>."
+
+#. (itstool) path: item/p
+#: C/app-fonts.page:129
+msgid ""
+"To set the horizontal character spacing, adjust the multiplier number in "
+"front of <gui>width</gui>."
+msgstr ""
+"Да поставите водоравни размак знакова, подесите умножилац испред "
+"<gui>ширине</gui>."
+
+#. (itstool) path: item/p
+#: C/app-fonts.page:133
+msgid ""
+"To set the line spacing, adjust the multiplier number in front of "
+"<gui>height</gui>."
+msgstr ""
+"Да поставите размак редова, подесите умножилац испред <gui>висине</gui>."
+
+#. (itstool) path: info/desc
+#: C/app-fullscreen.page:29
+msgid "Enable fullscreen mode."
+msgstr "Омогућите режим целог екрана."
+
+#. (itstool) path: page/title
+#: C/app-fullscreen.page:32
+msgid "Fullscreen session"
+msgstr "Сесија преко целог екрана"
+
+#. (itstool) path: page/p
+#: C/app-fullscreen.page:34
+msgid "Fullscreen mode allows <app>Terminal</app> to use the entire screen."
+msgstr ""
+"Режим целог екрана омогућава <app>Терминалу</app> да користи читав екран."
+
+#. (itstool) path: page/p
+#: C/app-fullscreen.page:36
+msgid ""
+"This mode is useful if you have a device with limited screen space and "
+"intend to work in <app>Terminal</app> for a long duration, or are working "
+"with long lines of terminal output. It temporarily hides the window "
+"decoration, allowing you to view more <link xref=\"pref-"
+"scrolling\">scrollback lines</link> on the screen."
+msgstr ""
+"Овај режим је користан ако имате уређај са ограниченим простором на екрану и "
+"намеравате да радите у <app>Терминалу</app> професионално дуже време, или "
+"ако радите са дугим редовима излаза терминала. Он привремено скрива украсе "
+"прозора, омогућавајући вам да видите више <link xref=\"pref-"
+"scrolling\">редова историје</link> на екрану."
+
+#. (itstool) path: page/p
+#: C/app-fullscreen.page:42
+msgid "To enable fullscreen mode:"
+msgstr "Да омогућите режим целог екрана:"
+
+#. (itstool) path: item/p
+#: C/app-fullscreen.page:46
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui "
+"style=\"menuitem\">Full Screen</gui>, or press <key>F11</key>."
+msgstr ""
+"Притисните дугме менија у горњем десном углу прозора и изаберите <gui "
+"style=\"menuitem\">Цео екран</gui>, или притисните <key>F11</key>."
+
+#. (itstool) path: note/p
+#: C/app-fullscreen.page:52
+msgid ""
+"The menubar will still be visible in fullscreen mode unless you have hidden "
+"it."
+msgstr ""
+"Трака изборника ће и даље бити видљива у режиму целог екрана осим ако је "
+"нисте сакрили."
+
+#. (itstool) path: note/p
+#: C/app-fullscreen.page:57
+msgid ""
+"If you have more than one <app>Terminal</app> tab open, the tab bar will be "
+"visible in the fullscreen mode."
+msgstr ""
+"Ако имате отворено више од једног језичка <app>Терминала</app>, трака са "
+"језичцима ће бити видљива у режиму целог екрана."
+
+#. (itstool) path: page/p
+#: C/app-fullscreen.page:61
+msgid "To disable fullscreen mode:"
+msgstr "Да онемогућите режим целог екрана:"
+
+#. (itstool) path: item/p
+#: C/app-fullscreen.page:65
+msgid ""
+"Right click and select <gui style=\"menuitem\">Leave Full Screen</gui>. "
+"Alternatively, press <key>F11</key>."
+msgstr ""
+"Кликните десним тастером миша и изаберите <gui style=\"menuitem\">Напусти "
+"цео екран</gui>. Алтернативно, притисните <key>F11</key>."
+
+#. (itstool) path: info/desc
+#: C/app-terminal-sizes.page:29
+msgid "Change the <app>Terminal</app> window size."
+msgstr "Промените величину прозора <app>Терминала</app>."
+
+#. (itstool) path: page/title
+#: C/app-terminal-sizes.page:33
+msgid "<app>Terminal</app> sizes"
+msgstr "Величине <app>Терминала</app>"
+
+#. (itstool) path: page/p
+#: C/app-terminal-sizes.page:35
+msgid ""
+"If you work with certain command line applications that have minimum "
+"terminal size requirements in order to display correctly, or if you want to "
+"view long lines of terminal output with minimal line breaks on your display, "
+"you may require <app>Terminal</app> windows to be of a particular size."
+msgstr ""
+"Ако радите са одређеним програмима линије наредби који имају захтеве за "
+"најмањом величином терминала како би се исправно приказали, или ако желите "
+"да видите дуге редове излаза терминала са најмање прелома редова на вашем "
+"екрану, можда ће вам бити потребни прозори <app>Терминала</app> одређене "
+"величине."
+
+#. (itstool) path: page/p
+#: C/app-terminal-sizes.page:41
+msgid ""
+"You can change the <app>Terminal</app> window size to some preset values:"
+msgstr ""
+"Можете променити величину прозора <app>Терминала</app> на неке већ подешене "
+"вредности:"
+
+#. (itstool) path: item/p
+#: C/app-terminal-sizes.page:46
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui "
+"style=\"menuitem\">Advanced</gui>."
+msgstr ""
+"Притисните дугме менија у горњем десном углу прозора и изаберите <gui "
+"style=\"menuitem\">Напредно</gui>."
+
+#. (itstool) path: item/p
+#: C/app-terminal-sizes.page:50
+msgid "Choose one of the following options:"
+msgstr "Изаберите једну од следећих опција:"
+
+#. (itstool) path: item/p
+#: C/app-terminal-sizes.page:53
+msgid "<gui style=\"menuitem\">80×24</gui>"
+msgstr "<gui style=\"menuitem\">80×24</gui>"
+
+#. (itstool) path: item/p
+#: C/app-terminal-sizes.page:56
+msgid "<gui style=\"menuitem\">80×43</gui>"
+msgstr "<gui style=\"menuitem\">80×43</gui>"
+
+#. (itstool) path: item/p
+#: C/app-terminal-sizes.page:59
+msgid "<gui style=\"menuitem\">132×24</gui>"
+msgstr "<gui style=\"menuitem\">132×24</gui>"
+
+#. (itstool) path: item/p
+#: C/app-terminal-sizes.page:62
+msgid "<gui style=\"menuitem\">132×43</gui>"
+msgstr "<gui style=\"menuitem\">132×43</gui>"
+
+#. (itstool) path: note/p
+#: C/app-terminal-sizes.page:69
+msgid ""
+"If you have enabled <link xref=\"pref-keyboard-access\"><gui>Menu access "
+"keys</gui></link>, you can access this menu by pressing <keyseq><key>Alt</"
+"key><key>T</key></keyseq> and then pressing <key>1</key> to switch the "
+"<app>Terminal</app> window to size <gui>80×24</gui> and so on."
+msgstr ""
+"Ако сте омогућили <link xref=\"pref-keyboard-access\"><gui>тастере за "
+"приступ изборнику</gui></link>, овом изборнику можете приступити притиском "
+"на <keyseq><key>Alt</key><key>T</key></keyseq>, а затим притиском на <key>1</"
+"key> да бисте променили величину прозора <app>Терминала</app> на <gui>80×24</"
+"gui> и тако даље."
+
+#. (itstool) path: page/p
+#: C/app-terminal-sizes.page:76
+msgid ""
+"If you require custom size <app>Terminal</app> windows, you can also set the "
+"default window size according to your requirements:"
+msgstr ""
+"Ако су вам потребни прозори <app>Терминала</app> произвољне величине, можете "
+"такође поставити подразумевану величину прозора према вашим потребама:"
+
+#. (itstool) path: item/p
+#: C/app-terminal-sizes.page:92
+msgid ""
+"Set <gui>Initial terminal size</gui> by typing the desired number of columns "
+"and rows in the corresponding input boxes. You can also click <gui "
+"style=\"button\">+</gui> to increase or <gui style=\"button\">-</gui> to "
+"decrease the size."
+msgstr ""
+"Поставите <gui>Почетну величину терминала</gui> уносом жељеног броја колона "
+"и редова у одговарајућа поља. Можете такође кликнути на <gui "
+"style=\"button\">+</gui> да повећате или на <gui style=\"button\">-</gui> да "
+"смањите величину."
+
+#. (itstool) path: info/desc
+#: C/app-zoom.page:28
+msgid "Increase or decrease text size."
+msgstr "Повећајте или смањите величину текста."
+
+#. (itstool) path: page/title
+#: C/app-zoom.page:32
+msgid "Zoom in and zoom out"
+msgstr "Увећајте и умањите"
+
+#. (itstool) path: page/p
+#: C/app-zoom.page:34
+msgid "To increase <app>Terminal</app> text size:"
+msgstr "За повећање величине текста <app>Терминала</app>:"
+
+#. (itstool) path: item/p
+#: C/app-zoom.page:38
+msgid ""
+"Press the menu button in the top-right corner of the window and press <gui "
+"style=\"button\">+</gui>, or press <keyseq><key>Ctrl</key><key>+</key></"
+"keyseq>."
+msgstr ""
+"Притисните дугме изборника у горњем десном углу прозора и притисните <gui "
+"style=\"button\">+</gui>, или притисните <keyseq><key>Ctrl</key><key>+</"
+"key></keyseq>."
+
+#. (itstool) path: page/p
+#: C/app-zoom.page:44
+msgid "To decrease <app>Terminal</app> text size:"
+msgstr "За смањење величине текста <app>Терминала</app>:"
+
+#. (itstool) path: item/p
+#: C/app-zoom.page:48
+msgid ""
+"Press the menu button in the top-right corner of the window and press <gui "
+"style=\"button\">-</gui>, or press <keyseq><key>Ctrl</key><key>-</key></"
+"keyseq>."
+msgstr ""
+"Притисните дугме изборника у горњем десном углу прозора и притисните <gui "
+"style=\"button\">-</gui>, или притисните <keyseq><key>Ctrl</key><key>-</"
+"key></keyseq>."
+
+#. (itstool) path: page/p
+#: C/app-zoom.page:54
+msgid "To restore <app>Terminal</app> text to default size:"
+msgstr "За враћање текста <app>Терминала</app> на подразумевану величину:"
+
+#. (itstool) path: item/p
+#: C/app-zoom.page:58
+msgid ""
+"Press the menu button in the top-right corner of the window and press <gui "
+"style=\"button\">100%</gui>, or press <keyseq><key>Ctrl</key><key>0</key></"
+"keyseq>."
+msgstr ""
+"Притисните дугме изборника у горњем десном углу прозора и притисните <gui "
+"style=\"button\">100%</gui>, или притисните <keyseq><key>Ctrl</key><key>0</"
+"key></keyseq>."
+
+#. (itstool) path: credit/years
+#: C/gs-execute-commands.page:21 C/gs-tabs.page:20 C/pref-scrolling.page:20
+msgid "2013–2014"
+msgstr "2013–2014"
+
+#. (itstool) path: info/desc
+#: C/gs-execute-commands.page:31
+msgid "Launch programs or run commands using <app>Terminal</app>."
+msgstr "Покрените програме или извршите наредбе користећи <app>Терминал</app>."
+
+#. (itstool) path: page/title
+#: C/gs-execute-commands.page:34
+msgid "Execute a command"
+msgstr "Извршите наредбу"
+
+#. (itstool) path: page/p
+#: C/gs-execute-commands.page:36
+msgid ""
+"Any input entered in the <app>Terminal</app> to be executed is referred to "
+"as a <em>command</em>. You can run both command line and graphical user "
+"interface (GUI) programs from the terminal."
+msgstr ""
+"Сваки унос у <app>Терминал</app> који треба да се изврши назива се "
+"<em>наредба</em>. Из терминала можете покретати и програме са линијом "
+"наредби и програме са графичким корисничким сучељем (ГКС)."
+
+#. (itstool) path: page/p
+#: C/gs-execute-commands.page:40
+msgid "To execute commands:"
+msgstr "За извршавање наредби:"
+
+#. (itstool) path: item/p
+#: C/gs-execute-commands.page:44
+msgid "Type the command in the <app>Terminal</app> prompt."
+msgstr "Укуцајте наредбу у упиту <app>Терминала</app>."
+
+#. (itstool) path: item/p
+#: C/gs-execute-commands.page:47
+msgid "Press <key>Enter</key> to execute it."
+msgstr "Притисните <key>Enter</key> да је извршите."
+
+#. (itstool) path: page/p
+#: C/gs-execute-commands.page:51
+msgid ""
+"If you have a program that ends abruptly without any warning or error, you "
+"may want to run it in <app>Terminal</app>. This will allow the program to "
+"output any error or debugging messages to the <app>Terminal</app> window. "
+"This information can be helpful when filing a bug report."
+msgstr ""
+"Ако имате програм који се изненада прекида без икаквог упозорења или грешке, "
+"можда ћете желети да га покренете у <app>Терминалу</app>. Ово ће омогућити "
+"програму да испише све поруке о грешкама или податке за исправљање грешака у "
+"прозору <app>Терминала</app>. Ови подаци могу бити корисни приликом слања "
+"извештаја о грешци."
+
+#. (itstool) path: note/p
+#: C/gs-execute-commands.page:57
+msgid ""
+"Read about the <link href=\"https://www.gnu.org/software/bash/manual/\">Bash "
+"shell</link> for more information on what you can do in a terminal."
+msgstr ""
+"Прочитајте више о <link href=\"https://www.gnu.org/software/bash/manual/"
+"\">Баш шкољци</link> за више података о томе шта можете да радите у "
+"терминалу."
+
+#. (itstool) path: info/desc
+#: C/gs-tabs.page:30
+msgid "Enable, add, remove and reorder <app>Terminal</app> tabs."
+msgstr ""
+"Омогућите, додајте, уклоните и промените редослед језичака <app>Терминала</"
+"app>."
+
+#. (itstool) path: page/title
+#: C/gs-tabs.page:33
+msgid "Use tabs"
+msgstr "Користите језичке"
+
+#. (itstool) path: page/p
+#: C/gs-tabs.page:35
+msgid ""
+"The tab bar is shown at the top a <app>Terminal</app> window that has "
+"multiple tabs open (it looks like a row of buttons). Click on a tab to "
+"switch to it. You can open multiple tabs to manage your work in "
+"<app>Terminal</app>. This will allow you to multi-task with activities such "
+"as running programs, browsing directories and editing text files in a single "
+"<app>Terminal</app> window."
+msgstr ""
+"Трака са језичцима се приказује на врху прозора <app>Терминала</app> који "
+"има отворено више језичака (изгледа као ред дугмића). Кликните на језичак да "
+"бисте прешли на њега. Можете отворити више језичака да бисте управљали "
+"својим радом у <app>Терминалу</app>. Ово ће вам омогућити да обављате више "
+"задатака истовремено, као што су покретање програма, разгледање "
+"директоријума и уређивање текстуалних датотека у једном прозору "
+"<app>Терминала</app>."
+
+#. (itstool) path: section/title
+#: C/gs-tabs.page:43
+msgid "Open a new tab"
+msgstr "Отвори нови језичак"
+
+#. (itstool) path: section/p
+#: C/gs-tabs.page:45
+msgid "To open a new tab inside your current <app>Terminal</app> window:"
+msgstr ""
+"Да бисте отворили нови језичак унутар вашег тренутног прозора "
+"<app>Терминала</app>:"
+
+#. (itstool) path: item/p
+#: C/gs-tabs.page:48
+msgid "Press <keyseq><key>Shift</key><key>Ctrl</key><key>T</key></keyseq>."
+msgstr ""
+"Притисните <keyseq><key>Shift</key><key>Ctrl</key><key>T</key></keyseq>."
+
+#. (itstool) path: section/title
+#: C/gs-tabs.page:85
+msgid "Remove a tab"
+msgstr "Уклоните језичак"
+
+#. (itstool) path: section/p
+#: C/gs-tabs.page:87
+msgid ""
+"To close an existing tab inside your current <app>Terminal</app> window:"
+msgstr ""
+"Да бисте затворили постојећи језичак унутар вашег тренутног прозора "
+"<app>Терминала</app>:"
+
+#. (itstool) path: item/p
+#: C/gs-tabs.page:92
+msgid "Press <keyseq><key>Shift</key><key>Ctrl</key><key>W</key></keyseq>."
+msgstr ""
+"Притисните <keyseq><key>Shift</key><key>Ctrl</key><key>W</key></keyseq>."
+
+#. (itstool) path: section/p
+#: C/gs-tabs.page:96
+msgid ""
+"Alternatively, you can click on the <gui style=\"button\">×</gui> in the top "
+"right corner of the tab or right click on the tab and select <gui "
+"style=\"menuitem\">Close Terminal</gui>."
+msgstr ""
+"Алтернативно, можете кликнути на <gui style=\"button\">×</gui> у горњем "
+"десном углу језичка или десним кликом на језичак изабрати <gui "
+"style=\"menuitem\">Затвори терминал</gui>."
+
+#. (itstool) path: section/title
+#: C/gs-tabs.page:103
+msgid "Reorder tabs"
+msgstr "Промените редослед језичака"
+
+#. (itstool) path: section/p
+#: C/gs-tabs.page:105
+msgid "To change the ordering of tabs in a window:"
+msgstr "Да бисте променили редослед језичака у прозору:"
+
+#. (itstool) path: item/p
+#: C/gs-tabs.page:108
+msgid "Click and hold the left mouse button on the tab."
+msgstr "Кликните и држите леви тастер миша на језичку."
+
+#. (itstool) path: item/p
+#: C/gs-tabs.page:111
+msgid "Drag the tab to the desired position among the other tabs."
+msgstr "Превуците језичак на жељено место међу осталим језичцима."
+
+#. (itstool) path: item/p
+#: C/gs-tabs.page:114
+msgid "Release the mouse button."
+msgstr "Отпустите тастер миша."
+
+#. (itstool) path: section/p
+#: C/gs-tabs.page:118
+msgid ""
+"The tab will be placed in the position closest to where you released the "
+"tab, immediately beside other open tabs."
+msgstr ""
+"Језичак ће бити постављен на место најближе оном где сте га отпустили, одмах "
+"поред осталих отворених језичака."
+
+#. (itstool) path: section/p
+#: C/gs-tabs.page:121
+msgid ""
+"Alternatively, you can reorder a tab by right clicking on a tab and "
+"selecting <gui style=\"menuitem\">Move Terminal Left</gui> to move the tab "
+"to the left or <gui style=\"menuitem\">Move Terminal Right</gui> to move the "
+"tab to the right. This will reorder the tab position by moving it one place "
+"at a time."
+msgstr ""
+"Алтернативно, можете променити редослед језичка десним кликом на језичак и "
+"бирањем <gui style=\"menuitem\">Премести терминал лево</gui> да бисте "
+"померили језичак улево или <gui style=\"menuitem\">Премести терминал десно</"
+"gui> да бисте га померили удесно. Ово ће променити редослед језичка "
+"померањем за по једно место."
+
+#. (itstool) path: info/title
+#: C/index.page:7
+msgctxt "link:trail"
+msgid "Terminal"
+msgstr "Терминал"
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "link"
+msgid "Terminal"
+msgstr "Терминал"
+
+#. (itstool) path: info/title
+#: C/index.page:9
+msgctxt "text"
+msgid "Terminal"
+msgstr "Терминал"
+
+#. (itstool) path: credit/name
+#: C/index.page:23
+msgid "Jim Campbell"
+msgstr "Џим Кембел"
+
+#. (itstool) path: info/desc
+#: C/index.page:30
+msgid "Set up and use the highly customizable GNOME terminal emulator."
+msgstr "Подесите и користите веома прилагодљив Гномов емулатор терминала."
+
+#. (itstool) path: page/title
+#: C/index.page:34
+msgid "<_:media-1/> Terminal Help"
+msgstr "<_:media-1/> Помоћ за Терминал"
+
+#. (itstool) path: section/title
+#: C/index.page:40
+msgid "Getting Started"
+msgstr "Започните"
+
+#. (itstool) path: section/title
+#: C/index.page:44
+msgid "Working With Text"
+msgstr "Рад са текстом"
+
+#. (itstool) path: section/title
+#: C/index.page:48
+msgid "Customize Appearance"
+msgstr "Подеси изглед"
+
+#. (itstool) path: section/title
+#: C/index.page:52
+msgid "Customize Behavior"
+msgstr "Прилагођавање понашања"
+
+#. (itstool) path: section/title
+#: C/index.page:56
+msgid "Advanced Settings"
+msgstr "Напредна подешавања"
+
+#. (itstool) path: section/title
+#: C/index.page:60
+msgid "Troubleshooting"
+msgstr "Решавање проблема"
+
+#. (itstool) path: info/desc
+#: C/introduction.page:29
+msgid "Learn about the GNOME terminal emulator."
+msgstr "Сазнајте више о Гномовом емулатору терминала."
+
+#. (itstool) path: page/title
+#: C/introduction.page:32
+msgid "Introduction"
+msgstr "Увод"
+
+#. (itstool) path: page/p
+#: C/introduction.page:34
+msgid ""
+"<app>Terminal</app> is a terminal emulator application for accessing a UNIX "
+"shell environment which can be used to run programs available on your system."
+msgstr ""
+"<app>Терминал</app> је програм за емулацију терминала за приступ окружењу "
+"Јуникс шкољке који се може користити за покретање програма доступних на "
+"вашем системе."
+
+#. (itstool) path: page/p
+#: C/introduction.page:38
+msgid ""
+"<app>Terminal</app> supports escape sequences that control cursor position "
+"and colors."
+msgstr ""
+"<app>Терминал</app> подржава контролне низове који управљају положајем "
+"курсора и бојама."
+
+#. (itstool) path: figure/title
+#: C/introduction.page:42
+msgid "Terminal"
+msgstr "Терминал"
+
+#. (itstool) path: figure/desc
+#: C/introduction.page:43
+msgid "Screenshot of GNOME <app>Terminal</app>"
+msgstr "Снимак екрана Гномовог <app>Терминала</app>"
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:44
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-terminal.png' "
+"md5='44213071a02d8e193ef33f6987afa39a'"
+msgstr ""
+"external ref='figures/gnome-terminal.png' "
+"md5='44213071a02d8e193ef33f6987afa39a'"
+
+#. (itstool) path: p/link
+#: C/legal.xml:4
+msgid "Creative Commons Attribution-Share Alike 3.0 Unported License"
+msgstr "Creative Commons Attribution-Share Alike 3.0 Unported License"
+
+#. (itstool) path: p/link
+#: C/legal.xml:6
+msgid "GNU General Public License version 3"
+msgstr "ГНУ-ова општа јавна лиценца верзије 3"
+
+#. (itstool) path: license/p
+#: C/legal.xml:3
+msgid ""
+"This work is licensed under a <_:link-1/> and a <_:link-2/>. It may be "
+"redistributed and/or modified under either license."
+msgstr ""
+"Овај рад је лиценциран под <_:link-1/> и <_:link-2/>. Може се поново "
+"расподељивати и/или мењати под било којом од ових лиценци."
+
+#. (itstool) path: license/p
+#: C/legal.xml:9
+msgid "GPL 3 statement:"
+msgstr "ГПЛ 3 изјава:"
+
+#. (itstool) path: license/p
+#: C/legal.xml:10
+msgid ""
+"This work is free software: you can redistribute it and/or modify it under "
+"the terms of the GNU General Public License version 3 as published by the "
+"Free Software Foundation."
+msgstr ""
+"Овај рад је слободан софтвер: можете га поново расподељивати и/или мењати "
+"под условима ГНУ-ове опште јавне лиценце верзије 3 коју је објавила "
+"Задужбина за слободан софтвер."
+
+#. (itstool) path: license/p
+#: C/legal.xml:14
+msgid ""
+"This work is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE. See the GNU General Public License for more "
+"details."
+msgstr ""
+"Овај рад се расподељује у нади да ће бити користан, али БЕЗ ИКАКВЕ "
+"ГАРАНЦИЈЕ; чак и без подразумеване гаранције ПРОДАЈНЕ ВРЕДНОСТИ или "
+"ПРИКЛАДНОСТИ ЗА ОДРЕЂЕНУ НАМЕНУ. Погледајте ГНУ-ову општу јавну лиценцу за "
+"више детаља."
+
+#. (itstool) path: license/p
+#: C/legal.xml:19
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see http://www.gnu.org/licenses/."
+msgstr ""
+"Требало је да примите примерак ГНУ-ове опште јавне лиценце уз овај програм. "
+"Ако нисте, погледајте http://www.gnu.org/licenses/."
+
+#. (itstool) path: info/desc
+#: C/overview.page:21
+msgid "What is a terminal?"
+msgstr "Шта је то терминал?"
+
+#. (itstool) path: page/title
+#: C/overview.page:24
+msgid "Overview of a terminal"
+msgstr "Преглед терминала"
+
+#. (itstool) path: page/p
+#: C/overview.page:26
+msgid ""
+"<app>Terminal</app> is a terminal program for <gui>GNOME</gui>. The "
+"following terms and their descriptions will help you to be familiar with "
+"<app>Terminal</app> and its capabilities."
+msgstr ""
+"<app>Терминал</app> је програм терминала за <gui>Гном</gui>. Следећи термини "
+"и њихови описи ће вам помоћи да се упознате са <app>Терминалом</app> и "
+"његовим могућностима."
+
+#. (itstool) path: item/title
+#: C/overview.page:32
+msgid "A terminal"
+msgstr "Терминал"
+
+#. (itstool) path: item/p
+#: C/overview.page:33
+msgid ""
+"A terminal is a text input point in a computer that is also called the "
+"Command Line Interface (CLI)."
+msgstr ""
+"Терминал је тачка за унос текста у рачунар која се такође назива и сучеље "
+"командне линије (CLI)."
+
+#. (itstool) path: item/title
+#: C/overview.page:37
+msgid "Physical terminals"
+msgstr "Физички терминали"
+
+#. (itstool) path: item/p
+#: C/overview.page:38
+msgid ""
+"IBM 3270, VT100 and many others are hardware terminals that are no longer "
+"produced as physical devices. To emulate these terminals, there are terminal "
+"emulators."
+msgstr ""
+"IBM 3270, VT100 и многи други су хардверски терминали који се више не "
+"производе као физички уређаји. За опонашање ових терминала постоје емулатори "
+"терминала."
+
+#. (itstool) path: item/title
+#: C/overview.page:43
+msgid "Terminal emulators"
+msgstr "Емулатори терминала"
+
+#. (itstool) path: item/p
+#: C/overview.page:44
+msgid ""
+"Emulation is the ability of a computer program to imitate another program or "
+"device."
+msgstr ""
+"Емулација је способност рачунарског програма да опонаша други програм или "
+"уређај."
+
+#. (itstool) path: item/p
+#: C/overview.page:47
+msgid ""
+"A terminal emulator, also called tty, is a software program that emulates a "
+"video terminal in modern computers that use graphical user interfaces and "
+"provide interactive access to applications that run only in the command line "
+"environments. These applications may be running either on the same machine "
+"or on a different one via <app>telnet</app>, <app>ssh</app>, or <app>dial-"
+"up</app>."
+msgstr ""
+"Емулатор терминала, који се назива и tty, је софтверски програм који опонаша "
+"видео терминал у савременим рачунарима који користе графичка корисничка "
+"сучеља и омогућавају међудејствени приступ програмима који се извршавају "
+"само у окружењима командне линије. Ови програми могу бити покренути на истој "
+"машини или на некој другој путем <app>telnet</app>-а, <app>ssh</app>-а или "
+"<app>dial-up</app>-а."
+
+#. (itstool) path: item/title
+#: C/overview.page:55
+msgid "VTE"
+msgstr "VTE"
+
+#. (itstool) path: item/p
+#: C/overview.page:56
+msgid ""
+"Virtual Terminal Environment (VTE) is a terminal emulator which emulates a "
+"text terminal inside a graphical user interface (GUI) environment. "
+"<app>Terminal</app> is largely based on the <app>VTE</app>. <app>VTE</app> "
+"has widgets that implement a fully functional terminal emulator."
+msgstr ""
+"Виртуелно окружење терминала (VTE) је емулатор терминала који опонаша "
+"текстуални терминал унутар окружења графичког корисничког сучеља (GUI). "
+"<app>Терминал</app> је у великој мери заснован на <app>VTE</app>-у. "
+"<app>VTE</app> има елементе који реализују потпуно функционалан емулатор "
+"терминала."
+
+#. (itstool) path: item/title
+#: C/overview.page:63
+msgid "Shell"
+msgstr "Шкољка"
+
+#. (itstool) path: item/p
+#: C/overview.page:64
+msgid ""
+"A <em>shell</em> is a program that provides an interface to invoke or "
+"“launch” commands or another program inside a terminal. It also allows you "
+"to view and browse the contents of directories. Popular shells include "
+"<app>bash</app>, <app>zsh</app>, <app>fish</app>."
+msgstr ""
+"<em>Шкољка</em> је програм који пружа сучеље за позивање или „покретање“ "
+"наредби или другог програма унутар терминала. Такође вам омогућава да "
+"прегледате и претражујете садржај директоријума. Популарне шкољке укључују "
+"<app>bash</app>, <app>zsh</app>, <app>fish</app>."
+
+#. (itstool) path: item/title
+#: C/overview.page:70
+msgid "Escape Sequences"
+msgstr "Ескејп секвенце"
+
+#. (itstool) path: item/p
+#: C/overview.page:71
+msgid ""
+"An escape sequence is a series of characters used to change the meaning of "
+"data in a terminal. Escape sequences are used when a computer has only "
+"single channel to send information back and forth. Escape sequences are used "
+"to distinguish if data being sent is a command to be executed or information "
+"to be stored and displayed."
+msgstr ""
+"Ескејп секвенца је низ знакова који се користе за промену значења података у "
+"терминалу. Ескејп секвенце се користе када рачунар има само један канал за "
+"слање информација напред-назад. Ескејп секвенце се користе за разликовање да "
+"ли су подаци који се шаљу наредба коју треба извршити или информација коју "
+"треба сачувати и приказати."
+
+#. (itstool) path: item/title
+#: C/overview.page:79
+msgid "Prompt"
+msgstr "Упит"
+
+#. (itstool) path: item/p
+#: C/overview.page:80
+msgid ""
+"A prompt is also called a <em>command prompt</em>. It is a sequence of "
+"characters used in the command line environment to indicate the readiness of "
+"the shell to accept commands."
+msgstr ""
+"Упит се такође назива и <em>командни упит</em>. То је низ знакова који се "
+"користи у окружењу командне линије да укаже на спремност шкољке да прихвати "
+"наредбе."
+
+#. (itstool) path: item/p
+#: C/overview.page:84
+msgid ""
+"A prompt usually ends with the characters <sys>$</sys>, <sys>%</sys>, "
+"<sys>#</sys> or <sys>&gt;</sys> and includes information about the path of "
+"the present working directory. On Unix based systems, it is common for the "
+"prompt to end in a <sys>$</sys> or <sys>#</sys> character depending on the "
+"user role such as <sys>$</sys> for user and <sys>#</sys> for superuser (also "
+"called <sys>root</sys>)."
+msgstr ""
+"Упит се обично завршава знаковима <sys>$</sys>, <sys>%</sys>, <sys>#</sys> "
+"или <sys>&gt;</sys> и укључује информације о путањи тренутног радног "
+"директоријума. На системима заснованим на Јуниксу, уобичајено је да се упит "
+"завршава знаком <sys>$</sys> или <sys>#</sys> у зависности од улоге "
+"корисника, као што је <sys>$</sys> за корисника и <sys>#</sys> за "
+"суперкорисника (који се назива и <sys>root</sys>)."
+
+#. (itstool) path: item/title
+#: C/overview.page:93
+msgid "Command"
+msgstr "Наредба"
+
+#. (itstool) path: item/p
+#: C/overview.page:94
+msgid ""
+"An input entered in the prompt to be executed is called a <em>command</em>. "
+"It is a combination of the program name along with any other additional "
+"parameters passed as flags to alter the execution of the program."
+msgstr ""
+"Унос унет у упит који треба да се изврши назива се <em>наредба</em>. То је "
+"комбинација назива програма заједно са свим осталим додатним параметрима "
+"прослеђеним као опције за измену извршавања програма."
+
+#. (itstool) path: page/title
+#: C/pref.page:18
+msgid "<app>Terminal</app> preferences"
+msgstr "Поставке <app>Терминала</app>"
+
+#. (itstool) path: section/title
+#: C/pref.page:21
+msgid "Global Preferences"
+msgstr "Опште поставке"
+
+#. (itstool) path: section/title
+#: C/pref.page:25
+msgid "Manage Profiles"
+msgstr "Управљај профилима"
+
+#. (itstool) path: section/title
+#: C/pref.page:29
+msgid "Profile Preferences"
+msgstr "Поставке профила"
+
+#. (itstool) path: info/desc
+#: C/pref-bell.page:29
+msgid "Enable audible notification in <app>Terminal</app>."
+msgstr "Омогући звучно обавештење у <app>Терминалу</app>."
+
+#. (itstool) path: page/title
+#: C/pref-bell.page:33
+msgid "Set audible bell"
+msgstr "Постави звучно звоно"
+
+#. (itstool) path: page/p
+#: C/pref-bell.page:35
+msgid ""
+"<app>Terminal</app> can sound an audible bell to indicate events in "
+"<app>Terminal</app> windows and tabs."
+msgstr ""
+"<app>Терминал</app> може пустити звучно звоно како би указао на догађаје у "
+"прозорима и језичцима <app>Терминала</app>."
+
+#. (itstool) path: page/p
+#: C/pref-bell.page:38
+msgid "To be notified of these events:"
+msgstr "Да бисте били обавештени о овим догађајима:"
+
+#. (itstool) path: item/p
+#: C/pref-bell.page:52
+msgid "Select <gui style=\"checkbox\">Terminal bell</gui>"
+msgstr "Изаберите <gui style=\"checkbox\">Звоно терминала</gui>"
+
+#. (itstool) path: note/p
+#: C/pref-bell.page:62
+msgid ""
+"To preview the bell sound that your system produces, press "
+"<keyseq><key>Ctrl</key><key>G</key></keyseq>."
+msgstr ""
+"Да бисте преслушали звук звона који ваш систем производи, притисните "
+"<keyseq><key>Ctrl</key><key>G</key></keyseq>."
+
+#. (itstool) path: credit/years
+#: C/pref-custom-exit.page:21 C/pref-custom-command.page:22
+#: C/pref-login-shell.page:20 C/pref-profiles.page:19
+msgid "2013-2014"
+msgstr "2013-2014"
+
+#. (itstool) path: info/desc
+#: C/pref-custom-exit.page:31
+msgid ""
+"Set the behavior of <app>Terminal</app> when a custom command or the default "
+"shell exits."
+msgstr ""
+"Поставите понашање <app>Терминала</app> када се произвољна наредба или "
+"подразумевана шкољка затворе."
+
+#. (itstool) path: page/title
+#: C/pref-custom-exit.page:35
+msgid "Set behavior on command exit"
+msgstr "Поставите понашање при изласку из наредбе"
+
+#. (itstool) path: page/p
+#: C/pref-custom-exit.page:37
+msgid ""
+"You can set the terminal to exit, restart or remain open when the shell or a "
+"custom command exits:"
+msgstr ""
+"Можете подесити терминал да се затвори, поново покрене или остане отворен "
+"када се шкољка или произвољна наредба заврше:"
+
+#. (itstool) path: item/p
+#: C/pref-custom-exit.page:50 C/pref-custom-command.page:56
+#: C/pref-login-shell.page:85
+msgid "Select <gui style=\"tab\">Command</gui>."
+msgstr "Изаберите језичак <gui style=\"tab\">Наредба</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-custom-exit.page:53
+msgid ""
+"From the <gui>When command exits</gui> drop down list, select one of the "
+"following options:"
+msgstr ""
+"Са падајућег списка <gui>Када се наредба заврши</gui>, изаберите једну од "
+"следећих опција:"
+
+#. (itstool) path: item/p
+#: C/pref-custom-exit.page:57
+msgid "<gui>Exit the terminal</gui>"
+msgstr "<gui>Изађи из терминала</gui>"
+
+#. (itstool) path: item/p
+#: C/pref-custom-exit.page:60
+msgid "<gui>Restart the command</gui>"
+msgstr "<gui>Поново покрени наредбу</gui>"
+
+#. (itstool) path: item/p
+#: C/pref-custom-exit.page:63
+msgid "<gui>Hold the terminal open</gui>"
+msgstr "<gui>Задржи терминал отвореним</gui>"
+
+#. (itstool) path: item/p
+#: C/pref-custom-exit.page:66
+msgid "The setting will be saved automatically when you select it."
+msgstr "Подешавање ће бити аутоматски сачувано када га изаберете."
+
+#. (itstool) path: note/p
+#: C/pref-custom-exit.page:71
+msgid ""
+"If you have <link xref=\"pref-custom-command\">set a custom command</link> "
+"that is non-interactive, have set the exit behavior to <gui>Exit the "
+"terminal</gui>, and have set the profile to be the default profile, "
+"<app>Terminal</app> may exit before you can see the output of the command."
+msgstr ""
+"Ако сте <link xref=\"pref-custom-command\">поставили произвољну наредбу</"
+"link> која није интерактивна, поставили понашање при изласку на <gui>Изађи "
+"из терминала</gui> и поставили профил као подразумевани, <app>Терминал</app> "
+"се може затворити пре него што успете да видите излаз наредбе."
+
+#. (itstool) path: info/desc
+#: C/pref-custom-command.page:32
+msgid ""
+"Set <app>Terminal</app> to run a command or a different shell on startup."
+msgstr ""
+"Подесите <app>Терминал</app> да покрене наредбу или другу шкољку при "
+"покретању."
+
+#. (itstool) path: page/title
+#: C/pref-custom-command.page:36
+msgid "Custom commands and shells"
+msgstr "Произвољне наредбе и шкољке"
+
+#. (itstool) path: page/p
+#: C/pref-custom-command.page:38
+msgid ""
+"A <em>shell</em> is software that provides an interface for users of an "
+"operating system to run <em>commands</em>, which can be programs such as "
+"<app>top</app> or a command line shell. The default shell is usually "
+"<app>Bash</app>."
+msgstr ""
+"<em>Шкољка</em> је софтвер који обезбеђује сучеље корисницима оперативног "
+"система за покретање <em>наредби</em>, које могу бити програми као што је "
+"<app>top</app> или шкољка линије наредби. Подразумевана шкољка је обично "
+"<app>Баш</app>."
+
+#. (itstool) path: page/p
+#: C/pref-custom-command.page:43
+msgid ""
+"You can set <app>Terminal</app> to run a command when it starts up instead "
+"of awaiting input from you:"
+msgstr ""
+"Можете подесити <app>Терминал</app> да покрене наредбу при покретању уместо "
+"да чека на ваш унос:"
+
+#. (itstool) path: item/p
+#: C/pref-custom-command.page:59
+msgid "Check <gui>Run a custom command instead of my shell</gui>."
+msgstr "Означите <gui>Покрени произвољну наредбу уместо моје шкољке</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-custom-command.page:62
+msgid "In the text box, type the command or the desired shell."
+msgstr "У поље за текст унесите наредбу или жељену шкољку."
+
+#. (itstool) path: item/p
+#: C/pref-custom-command.page:63
+msgid ""
+"The command will be passed to the terminal exactly as you write it, "
+"including any arguments that you specify. Environment variables will be "
+"inherited from the terminal as it is a child process of the terminal."
+msgstr ""
+"Наредба ће бити прослеђена терминалу тачно онако како сте је написали, "
+"укључујући и све аргументе које наведете. Променљиве окружења ће бити "
+"наслеђене из терминала јер је то потпроцес терминала."
+
+#. (itstool) path: item/p
+#: C/pref-custom-command.page:68
+msgid ""
+"Open a new <app>Terminal</app> tab or window to see how the custom shell or "
+"command executes."
+msgstr ""
+"Отворите нови језичак или прозор <app>Терминала</app> да видите како се "
+"извршава произвољна шкољка или наредба."
+
+#. (itstool) path: page/p
+#: C/pref-custom-command.page:73
+msgid ""
+"You can also <link xref=\"pref-custom-exit\">set the behavior</link> of the "
+"terminal once the command finishes executing."
+msgstr ""
+"Такође можете <link xref=\"pref-custom-exit\">подесити понашање</link> "
+"терминала након што се извршавање наредбе заврши."
+
+#. (itstool) path: note/p
+#: C/pref-custom-command.page:77
+msgid ""
+"You may have to enter full path to the command or the shell if the directory "
+"where the command or shell resides is not in the <code>PATH</code> variable "
+"of your system."
+msgstr ""
+"Можда ћете морати да унесете пуну путању до наредбе или шкољке ако се "
+"директоријум у коме се наредба или шкољка налази не налази у променљивој "
+"<code>PATH</code> вашег система."
+
+#. (itstool) path: info/desc
+#: C/pref-keyboard-access.page:30
+msgid "Navigate around <app>Terminal</app> menus using keyboard keys."
+msgstr ""
+"Крећите се кроз изборнике <app>Терминала</app> помоћу тастера на тастатури."
+
+#. (itstool) path: page/title
+#: C/pref-keyboard-access.page:33
+msgid "Keyboard accessibility"
+msgstr "Приступачност тастатуре"
+
+#. (itstool) path: note/p
+#: C/pref-keyboard-access.page:37
+msgid ""
+"These keys will only have an effect in windows in which the menubar is set "
+"to be visible."
+msgstr ""
+"Ови тастери ће имати ефекта само у прозорима у којима је трака изборника "
+"постављена да буде видљива."
+
+#. (itstool) path: note/p
+#: C/pref-keyboard-access.page:39
+msgid ""
+"Right click in the <app>Terminal</app> window and select <gui "
+"style=\"checkbox\">Show Menubar</gui> to display the menubar."
+msgstr ""
+"Десним кликом у прозору <app>Терминала</app> и изаберите <gui "
+"style=\"checkbox\">Прикажи траку изборника</gui> да бисте приказали траку "
+"изборника."
+
+#. (itstool) path: page/p
+#: C/pref-keyboard-access.page:43
+msgid ""
+"You can navigate the <app>Terminal</app> menu using a combination of keys "
+"that are called <em>mnemonics</em> or a special key that takes you directly "
+"to the first menu in the menubar which is called the <em>menu accelerator "
+"key</em>."
+msgstr ""
+"Можете се кретати кроз изборник <app>Терминала</app> користећи комбинацију "
+"тастера који се називају <em>мнемоници</em> или посебан тастер који вас води "
+"директно до првог изборника у траци изборника који се назива <em>тастер "
+"пречице изборника</em>."
+
+#. (itstool) path: section/title
+#: C/pref-keyboard-access.page:49
+msgid "Mnemonics"
+msgstr "Мнемоника"
+
+#. (itstool) path: section/p
+#: C/pref-keyboard-access.page:51
+msgid ""
+"<app>Terminal</app> menu can be accessed by combining the <key>Alt</key> key "
+"and a letter of the menu item. The letter that you need to use to access the "
+"menu will be underlined when you hold down the <key>Alt</key>."
+msgstr ""
+"Изборнику <app>Терминала</app> се може приступити комбиновањем тастера "
+"<key>Alt</key> и слова ставке изборника. Слово које треба да користите за "
+"приступ изборнику биће подвучено када држите тастер <key>Alt</key>."
+
+#. (itstool) path: section/p
+#: C/pref-keyboard-access.page:56
+msgid ""
+"For example, view the <gui style=\"menu\">Edit</gui> menu using "
+"<keyseq><key>Alt</key><key>E</key></keyseq>. Similarly, you can access <gui "
+"style=\"menu\">File</gui> menu using <keyseq><key>Alt</key><key>F</key></"
+"keyseq>."
+msgstr ""
+"На пример, погледајте изборник <gui style=\"menu\">Уреди</gui> користећи "
+"<keyseq><key>Alt</key><key>E</key></keyseq>. Слично томе, можете приступити "
+"изборнику <gui style=\"menu\">Датотека</gui> користећи <keyseq><key>Alt</"
+"key><key>F</key></keyseq>."
+
+#. (itstool) path: section/p
+#: C/pref-keyboard-access.page:61
+msgid "To enable mnemonics:"
+msgstr "Да омогућите мнемонике:"
+
+#. (itstool) path: item/p
+#: C/pref-keyboard-access.page:69 C/pref-keyboard-access.page:91
+#: C/pref-tab-window.page:60
+msgid "In the sidebar, select <gui>General</gui>."
+msgstr "У бочној површи изаберите <gui>Опште</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-keyboard-access.page:72
+msgid "Check <gui style=\"checkbox\">Enable mnemonics</gui>."
+msgstr "Означите <gui style=\"checkbox\">Омогући мнемонике</gui>."
+
+#. (itstool) path: section/title
+#: C/pref-keyboard-access.page:79
+msgid "Menu accelerator key"
+msgstr "Тастер пречице изборника"
+
+#. (itstool) path: section/p
+#: C/pref-keyboard-access.page:81
+msgid ""
+"This setting brings up the <gui style=\"menu\">File</gui> menu when the menu "
+"accelerator key is pressed. This key is usually <key>F10</key> by default."
+msgstr ""
+"Ово подешавање отвара изборник <gui style=\"menu\">Датотека</gui> када се "
+"притисне тастер пречице изборника. Овај тастер је обично <key>F10</key> по "
+"задраним вредностима."
+
+#. (itstool) path: item/p
+#: C/pref-keyboard-access.page:94
+msgid "Check <gui style=\"checkbox\">Enable the menu accelerator key</gui>."
+msgstr ""
+"Означите <gui style=\"checkbox\">Омогући тастер пречице изборника</gui>."
+
+#. (itstool) path: info/desc
+#: C/pref-login-shell.page:30
+msgid "Start a login shell in <app>Terminal</app>."
+msgstr "Покрените пријавну шкољку у <app>Терминалу</app>."
+
+#. (itstool) path: page/title
+#: C/pref-login-shell.page:33
+msgid "Login shells"
+msgstr "Шкољке пријаве"
+
+#. (itstool) path: page/p
+#: C/pref-login-shell.page:35
+msgid ""
+"Shells in UNIX based systems can be started up in login and non-login modes:"
+msgstr ""
+"Шкољке у системима заснованим на ЈУНИКС-у могу бити покренуте у режимима са "
+"пријавом и без пријаве:"
+
+#. (itstool) path: item/title
+#: C/pref-login-shell.page:40
+msgid "Login shell"
+msgstr "Шкољка пријаве"
+
+#. (itstool) path: item/p
+#: C/pref-login-shell.page:41
+msgid ""
+"A login shell is a shell given to a user upon login into their user account. "
+"This is initiated by using the <cmd>-l</cmd> or <cmd>--login</cmd> option, "
+"or placing a dash as the initial character of the command name, for example "
+"invoking <cmd>bash</cmd> as <cmd>-bash</cmd>."
+msgstr ""
+"Шкољка пријаве је шкољка која се додељује кориснику након пријављивања на "
+"његов кориснички налог. Ово се покреће коришћењем опције <cmd>-l</cmd> или "
+"<cmd>--login</cmd>, или постављањем црте као почетног знака назива наредбе, "
+"на пример позивањем <cmd>bash</cmd> као <cmd>-bash</cmd>."
+
+#. (itstool) path: item/title
+#: C/pref-login-shell.page:48
+msgid "Sub shell"
+msgstr "Подшкољка"
+
+#. (itstool) path: item/p
+#: C/pref-login-shell.page:49
+msgid ""
+"Sub shell, also called a non-login shell is a shell started after the login "
+"process without the <cmd>-l</cmd> or <cmd>--login</cmd> option and without "
+"an extra dash before the command name."
+msgstr ""
+"Подшкољка, која се још назива и шкољка без пријаве, јесте шкољка покренута "
+"након процеса пријављивања без опције <cmd>-l</cmd> или <cmd>--login</cmd> и "
+"без додатне црте пре назива наредбе."
+
+#. (itstool) path: page/p
+#: C/pref-login-shell.page:55
+msgid "The general cases for having a login shell include:"
+msgstr "Општи случајеви за поседовање шкољке пријаве укључују:"
+
+#. (itstool) path: item/p
+#: C/pref-login-shell.page:58
+msgid "Accessing your computer remotely using <app>ssh</app>."
+msgstr "Приступање вашем рачунару удаљено коришћењем <app>ssh</app>-а."
+
+#. (itstool) path: item/p
+#: C/pref-login-shell.page:61
+msgid ""
+"Simulating an initial login shell with <cmd>bash -l</cmd> or <cmd>sh -l</"
+"cmd>."
+msgstr ""
+"Симулирање почетне шкољке пријаве помоћу <cmd>bash -l</cmd> или <cmd>sh -l</"
+"cmd>."
+
+#. (itstool) path: item/p
+#: C/pref-login-shell.page:65
+msgid "Simulating an initial root login shell with <cmd>sudo -i</cmd>."
+msgstr ""
+"Симулирање почетне шкољке пријаве администратора (root) помоћу <cmd>sudo -i</"
+"cmd>."
+
+#. (itstool) path: section/title
+#: C/pref-login-shell.page:70
+msgid "Start a login shell"
+msgstr "Покрените шкољку пријаве"
+
+#. (itstool) path: section/p
+#: C/pref-login-shell.page:72
+msgid ""
+"You can allow <app>Terminal</app> to start a login shell. Your default shell "
+"will be started with a dash character prepended to its name."
+msgstr ""
+"Можете дозволити <app>Терминалу</app> да покрене шкољку пријаве. Ваша "
+"подразумевана шкољка ће бити покренута са знаком црте додатим испред њеног "
+"назива."
+
+#. (itstool) path: item/p
+#: C/pref-login-shell.page:92
+msgid ""
+"Under the <gui>Command</gui> label, select <gui style=\"checkbox\">Run "
+"command as a login shell</gui>."
+msgstr ""
+"Под ознаком <gui>Наредба</gui>, изаберите <gui style=\"checkbox\">Покрени "
+"наредбу као шкољку пријаве</gui>."
+
+#. (itstool) path: info/desc
+#: C/pref-menubar.page:31
+msgid "Display and hide the menubar."
+msgstr "Прикажите и сакријте траку изборника."
+
+#. (itstool) path: page/title
+#: C/pref-menubar.page:35
+msgid "Menubar visibility"
+msgstr "Видљивост траке изборника"
+
+#. (itstool) path: page/p
+#: C/pref-menubar.page:37
+msgid ""
+"You can enable or disable the menubar as desired. This may be useful if you "
+"have limited screen space."
+msgstr ""
+"Можете омогућити или онемогућити траку изборника по жељи. Ово може бити "
+"корисно ако имате ограничен простор на екрану."
+
+#. (itstool) path: page/p
+#: C/pref-menubar.page:40
+msgid "To display the menubar:"
+msgstr "За приказ траке изборника:"
+
+#. (itstool) path: item/p
+#: C/pref-menubar.page:43
+msgid ""
+"Right click in <app>Terminal</app> and select <gui style=\"menuitem\">Show "
+"Menubar</gui>."
+msgstr ""
+"Кликните десним тастером миша у <app>Терминалу</app> и изаберите <gui "
+"style=\"menuitem\">Прикажи траку изборника</gui>."
+
+#. (itstool) path: page/p
+#: C/pref-menubar.page:48
+msgid "To hide the menubar:"
+msgstr "За скривање траке изборника:"
+
+#. (itstool) path: item/p
+#: C/pref-menubar.page:51
+msgid ""
+"Right click in <app>Terminal</app> and deselect <gui style=\"checkbox\">Show "
+"Menubar</gui>."
+msgstr ""
+"Кликните десним тастером миша у <app>Терминалу</app> и поништите избор <gui "
+"style=\"checkbox\">Прикажи траку изборника</gui>."
+
+#. (itstool) path: note/p
+#: C/pref-menubar.page:71
+msgid ""
+"You can <link xref=\"adv-keyboard-shortcuts\">set a keyboard shortcut</link> "
+"to show and hide the menubar."
+msgstr ""
+"Можете <link xref=\"adv-keyboard-shortcuts\">поставити пречицу на тастатури</"
+"link> за приказивање и скривање траке изборника."
+
+#. (itstool) path: info/desc
+#: C/pref-profiles.page:29
+msgid "Create, rename and delete profiles."
+msgstr "Прављење, преименовање и брисање профила."
+
+#. (itstool) path: page/title
+#: C/pref-profiles.page:32
+msgid "Manage profiles"
+msgstr "Управљај профилима"
+
+#. (itstool) path: page/p
+#: C/pref-profiles.page:40
+msgid ""
+"A profile is a collection of <app>Terminal</app> settings. <app>Terminal</"
+"app> supports multiple profiles. You can configure <app>Terminal</app> "
+"profiles to <link xref=\"pref-custom-command\">run a custom command or "
+"shell</link>, set a profile exclusively to connect to remote computers using "
+"SSH or set a profile that launches a <app>GNU Screen</app> session."
+msgstr ""
+"Профил је збирка подешавања <app>Терминала</app>. <app>Терминал</app> "
+"подржава више профила. Можете подесити профиле <app>Терминала</app> да <link "
+"xref=\"pref-custom-command\">покрећу произвољну наредбу или шкољку</link>, "
+"поставити профил искључиво за повезивање са удаљеним рачунарима користећи "
+"SSH или поставити профил који покреће сесију <app>GNU Screen-а</app>."
+
+#. (itstool) path: page/p
+#: C/pref-profiles.page:47
+msgid "The available <app>Terminal</app> settings include:"
+msgstr "Доступна подешавања <app>Терминала</app> укључују:"
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:51
+msgid "Profile name."
+msgstr "Назив профила."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:54
+msgid "Font and background colors."
+msgstr "Боје фонта и позадине."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:57
+msgid ""
+"<gui style=\"tab\">Compatibility</gui> with <key>Backspace</key> and "
+"<key>Delete</key> keys."
+msgstr ""
+"<gui style=\"tab\">Усклађивање</gui> са тастерима <key>Backspace</key> и "
+"<key>Delete</key>."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:61
+msgid "<gui style=\"tab\">Scrolling</gui>."
+msgstr "<gui style=\"tab\">Клизање</gui>."
+
+#. (itstool) path: section/title
+#: C/pref-profiles.page:66
+msgid "Select a profile"
+msgstr "Изаберите профил"
+
+#. (itstool) path: section/p
+#: C/pref-profiles.page:68
+msgid ""
+"If you have two or more profiles defined, you can change the profile in your "
+"current <app>Terminal</app> tab or window by selecting a profile from "
+"<guiseq><gui style=\"menu\">Terminal</gui> <gui style=\"menuitem\">Change "
+"Profile</gui></guiseq>."
+msgstr ""
+"Ако имате дефинисана два или више профила, можете променити профил у "
+"тренутном језичку или прозору <app>Терминала</app> избором профила из "
+"<guiseq><gui style=\"menu\">Терминал</gui> <gui style=\"menuitem\">Промени "
+"профил</gui></guiseq>."
+
+#. (itstool) path: section/title
+#: C/pref-profiles.page:76
+msgid "Create a new profile"
+msgstr "Направи нови профил"
+
+#. (itstool) path: section/p
+#: C/pref-profiles.page:78
+msgid ""
+"To create a new profile with the default settings of <app>Terminal</app>:"
+msgstr ""
+"Да направите нови профил са подразумеваним подешавањима <app>Терминала</app>:"
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:83 C/pref-profiles.page:112 C/pref-profiles.page:162
+#: C/pref-profiles.page:204 C/pref-profiles.page:233 C/pref-profiles.page:273
+msgid ""
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui "
+"style=\"menuitem\">Preferences</gui></guiseq>."
+msgstr ""
+"Изаберите <guiseq><gui style=\"menu\">Уреди</gui> <gui "
+"style=\"menuitem\">Поставке</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:87
+msgid ""
+"In the sidebar, click on the <gui style=\"button\">+</gui> button next to "
+"the <gui>Profiles</gui> label."
+msgstr ""
+"У бочној површи, кликните на дугме <gui style=\"button\">+</gui> поред "
+"натписа <gui>Профили</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:91 C/pref-profiles.page:126
+msgid "Enter a name for the new profile. You can change this name later."
+msgstr "Унесите назив за нови профил. Овај назив можете променити касније."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:94
+msgid "Click <gui style=\"button\">Create</gui> to create the new profile."
+msgstr ""
+"Кликните на <gui style=\"button\">Направи</gui> да направите нови профил."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:97 C/pref-profiles.page:132
+msgid ""
+"Set your desired <link xref=\"#edit-profile\">profile preferences</link>. "
+"These will be saved automatically."
+msgstr ""
+"Поставите жељене <link xref=\"#edit-profile\">поставке профила</link>. Оне "
+"ће бити сачуване аутоматски."
+
+#. (itstool) path: section/title
+#: C/pref-profiles.page:105
+msgid "Create a new profile based on an existing profile"
+msgstr "Направите нови профил на основу постојећег профила"
+
+#. (itstool) path: section/p
+#: C/pref-profiles.page:107
+msgid ""
+"You can create a new profile based on settings from an existing profile:"
+msgstr ""
+"Можете направити нови профил на основу подешавања из постојећег профила:"
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:116
+msgid ""
+"In the sidebar select the profile on which your new profile should be based."
+msgstr ""
+"У бочној површи изаберите профил на којем би ваш нови профил требало да се "
+"заснива."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:120 C/pref-profiles.page:211 C/pref-profiles.page:240
+#: C/pref-profiles.page:280
+msgid "Click on the arrow next to the profile name."
+msgstr "Кликните на стрелицу поред назива профила."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:123
+msgid "Select <gui style=\"menuitem\">Clone…</gui>."
+msgstr "Изаберите <gui style=\"menuitem\">Клонирај…</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:129
+msgid "Click <gui style=\"button\">Clone</gui> to create the new profile."
+msgstr ""
+"Кликните на <gui style=\"button\">Клонирај</gui> да направите нови профил."
+
+#. (itstool) path: note/p
+#: C/pref-profiles.page:138
+msgid ""
+"Creating a new profile from an existing profile will not affect settings in "
+"an existing profile. Any changes to settings will be stored in the new "
+"profile."
+msgstr ""
+"Стварање новог профила из постојећег неће утицати на подешавања у постојећем "
+"профилу. Све измене подешавања биће сачуване у новом профилу."
+
+#. (itstool) path: section/title
+#: C/pref-profiles.page:146
+msgid "Edit a profile"
+msgstr "Уређивање профила"
+
+#. (itstool) path: note/p
+#: C/pref-profiles.page:149
+msgid ""
+"If the default profile is edited, it cannot be restored to its original "
+"settings! If you have not already created any other <app>Terminal</app> "
+"profiles and have customized the default profile, <app>Terminal</app> "
+"<em>may</em> become unusable should any settings cause problems. It is "
+"recommended that you <link xref=\"#create-profile-from-existing\">create a "
+"copy of the default profile</link> then edit the copy to create a custom "
+"profile."
+msgstr ""
+"Ако се измени подразумевани профил, он се не може вратити на изворна "
+"подешавања! Ако још нисте направили ниједан други профил <app>Терминала</"
+"app> и прилагодили сте подразумевани профил, <app>Терминал</app> <em>може</"
+"em> постати неупотребљив ако нека подешавања изазову проблеме. Препоручује "
+"се да <link xref=\"#create-profile-from-existing\">направите примерак "
+"подразумеваног профила</link> а затим уредите тај примерак да бисте "
+"направили произвољни профил."
+
+#. (itstool) path: section/p
+#: C/pref-profiles.page:158
+msgid "You can make changes to existing profiles. To edit a profile:"
+msgstr "Можете да мењате постојеће профиле. Да бисте уредили профил:"
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:166
+msgid ""
+"Your current profile is selected in the sidebar. If you wish to edit a "
+"different profile, click on its name."
+msgstr ""
+"Ваш тренутни профил је изабран у бочној површи. Ако желите да уредите неки "
+"други профил, кликните на његово име."
+
+#. (itstool) path: section/p
+#: C/pref-profiles.page:171
+msgid "Once the desired profile is selected, you can:"
+msgstr "Када изаберете жељени профил, можете:"
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:175
+msgid ""
+"Select <link xref=\"app-fonts\">font</link>, <link xref=\"app-"
+"cursor\">cursor shapes</link> and <link xref=\"app-terminal-"
+"sizes\"><app>Terminal</app> size</link>."
+msgstr ""
+"Изаберите <link xref=\"app-fonts\">фонт</link>, <link xref=\"app-"
+"cursor\">облике курсора</link> и <link xref=\"app-terminal-sizes\">величину "
+"<app>Терминала</app></link>."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:180
+msgid ""
+"You may also change behavior of <app>Terminal</app> on <link xref=\"pref-"
+"custom-exit\">command exit</link>, set a <link xref=\"pref-login-"
+"shell\">custom login shell</link> or change <link xref=\"pref-"
+"scrolling\">scrollbar preferences</link>."
+msgstr ""
+"Такође можете променити понашање <app>Терминала</app> при <link xref=\"pref-"
+"custom-exit\">изласку из наредбе</link>, поставити <link xref=\"pref-login-"
+"shell\">произвољну шкољку пријаве</link> или променити <link xref=\"pref-"
+"scrolling\">поставке траке клизача</link>."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:186
+msgid ""
+"To change the <app>Terminal</app> background and text colors, see <link "
+"xref=\"app-colors\"><app>Terminal</app> color schemes</link>."
+msgstr ""
+"Да бисте променили позадину <app>Терминала</app> и боје текста, погледајте "
+"<link xref=\"app-colors\">шеме боја <app>Терминала</app></link>."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:190
+msgid ""
+"Changes to profile are saved immediately. To return to <app>Terminal</app>, "
+"click <gui style=\"button\">Close</gui>."
+msgstr ""
+"Измене профила се одмах чувају. Да бисте се вратили у <app>Терминал</app>, "
+"кликните на <gui style=\"button\">Затвори</gui>."
+
+#. (itstool) path: section/title
+#: C/pref-profiles.page:198
+msgid "Rename an existing profile"
+msgstr "Преименовање постојећег профила"
+
+#. (itstool) path: section/p
+#: C/pref-profiles.page:200
+msgid "You can rename existing profiles, including the default profile:"
+msgstr ""
+"Можете преименовати постојеће профиле, укључујући и подразумевани профил:"
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:208
+msgid "Select the profile you wish to rename."
+msgstr "Изаберите профил који желите да преименујете."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:214
+msgid "Select <gui style=\"menuitem\">Rename…</gui>."
+msgstr "Изаберите <gui style=\"menuitem\">Преименуј…</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:217
+msgid "Enter the new profile name."
+msgstr "Унесите нови назив профила."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:220
+msgid "Click <gui style=\"button\">Rename</gui> to rename."
+msgstr ""
+"Кликните на <gui style=\"button\">Преименуј</gui> да бисте га преименовали."
+
+#. (itstool) path: section/title
+#: C/pref-profiles.page:227
+msgid "Delete a profile"
+msgstr "Брисање профила"
+
+#. (itstool) path: section/p
+#: C/pref-profiles.page:229
+msgid "To delete a profile:"
+msgstr "Да бисте обрисали профил:"
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:237
+msgid "Select the profile you wish to delete."
+msgstr "Изаберите профил који желите да обришете."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:243
+msgid "Select <gui style=\"menuitem\">Delete…</gui>."
+msgstr "Изаберите <gui style=\"menuitem\">Обриши…</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:246
+msgid "Click <gui style=\"button\">Delete</gui> to confirm."
+msgstr "Кликните на дугме <gui style=\"button\">Обриши</gui> за потврду."
+
+#. (itstool) path: note/p
+#: C/pref-profiles.page:251
+msgid ""
+"The default profile cannot be deleted. If you wish to delete that profile, "
+"first set another profile as <link xref=\"#set-default\">default</link>."
+msgstr ""
+"Подразумевани профил се не може обрисати. Ако желите да обришете тај профил, "
+"прво поставите неки други профил као <link xref=\"#set-"
+"default\">подразумевани</link>."
+
+#. (itstool) path: section/title
+#: C/pref-profiles.page:259
+msgid "Set a default profile"
+msgstr "Постављање подразумеваног профила"
+
+#. (itstool) path: section/p
+#: C/pref-profiles.page:261
+msgid ""
+"The default profile is loaded when a new terminal is opened unless you have "
+"selected another profile. Any changes that you make to the settings will be "
+"stored in the currently selected profile."
+msgstr ""
+"Подразумевани профил се учитава када се отвори нови терминал, осим ако нисте "
+"изабрали неки други профил. Све измене које направите у подешавањима биће "
+"сачуване у тренутно изабраном профилу."
+
+#. (itstool) path: section/p
+#: C/pref-profiles.page:265
+msgid ""
+"The default profile is used when <app>Terminal</app> could not otherwise "
+"decide which profile to use. For example, <app>Terminal</app> is started up "
+"freshly and opens its first terminal window. In contrast, when you use a "
+"menu entry or keyboard shortcut of <app>Terminal</app> to open a new "
+"terminal, the profile of the existing terminal is used."
+msgstr ""
+"Подразумевани профил се користи када <app>Терминал</app> не може другачије "
+"да одлучи који профил да користи. На пример, <app>Терминал</app> је тек "
+"покренут и отвара свој први прозор терминала. Насупрот томе, када користите "
+"ставку менија или пречицу на тастатури <app>Терминала</app> за отварање "
+"новог терминала, користи се профил постојећег терминала."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:277
+msgid "Select the profile you wish to set as the default."
+msgstr "Изаберите профил који желите да поставите као подразумевани."
+
+#. (itstool) path: item/p
+#: C/pref-profiles.page:283
+msgid "Select <gui style=\"menuitem\">Set as default</gui>."
+msgstr "Изаберите <gui style=\"menuitem\">Постави као подразумевани</gui>."
+
+#. (itstool) path: note/p
+#: C/pref-profiles.page:288
+msgid "The default profile is marked with a check mark symbol."
+msgstr "Подразумевани профил је означен симболом за потврду."
+
+#. (itstool) path: credit/years
+#: C/pref-profile-char-width.page:14 C/pref-profile-encoding.page:14
+#: C/pref-user-input.page:13
+msgid "2014"
+msgstr "2014"
+
+#. (itstool) path: info/desc
+#: C/pref-profile-char-width.page:24
+msgid "Display ambiguous-width characters as wide instead of narrow."
+msgstr "Приказуј знакове нејасне ширине као широке уместо као уске."
+
+#. (itstool) path: page/title
+#: C/pref-profile-char-width.page:28
+msgid "Characters look too narrow"
+msgstr "Знакови изгледају превише уско"
+
+#. (itstool) path: page/p
+#: C/pref-profile-char-width.page:30
+msgid ""
+"Some characters, such as some Greek letters and Asian logograms, can take up "
+"either one or two cells in a terminal window. These characters are often "
+"referred to as <em>ambiguous characters</em>. By default, these characters "
+"are displayed with a narrow width in <app>Terminal</app>, which looks better "
+"in situations where perfect layout is important, such as in ASCII art. You "
+"can change your profile preferences to display ambiguous characters as wide, "
+"which can be better if you are reading running prose."
+msgstr ""
+"Неки знакови, као што су поједина грчка слова и азијски логограми, могу "
+"заузети једну или две ћелије у прозору терминала. Ови знакови се често "
+"називају <em>знаковима нејасне ширине</em>. Подразумевано, ови знакови се у "
+"<app>Терминалу</app> приказују са уском ширином, што изгледа боље у "
+"ситуацијама где је савршен распоред важан, као што је АСКИ уметност. Можете "
+"променити поставке профила да бисте знакове нејасне ширине приказивали као "
+"широке, што може бити боље ако читате обичан текст."
+
+#. (itstool) path: item/p
+#: C/pref-profile-char-width.page:48 C/pref-profile-encoding.page:46
+msgid "Open the <gui style=\"tab\">Compatibility</gui> tab."
+msgstr "Отворите језичак <gui style=\"tab\">Усклађивање</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-profile-char-width.page:51
+msgid "Set <gui>Ambiguous-width characters</gui> to <gui>Wide</gui>."
+msgstr "Поставите <gui>Знакове нејасне ширине</gui> на <gui>Широко</gui>."
+
+#. (itstool) path: info/desc
+#: C/pref-profile-encoding.page:24
+msgid "Set a different encoding for each saved profile."
+msgstr "Поставите другачије кодирање за сваки сачувани профил."
+
+#. (itstool) path: page/title
+#: C/pref-profile-encoding.page:28
+msgid "Change profile character encoding"
+msgstr "Промена кодирања знакова профила"
+
+#. (itstool) path: page/p
+#: C/pref-profile-encoding.page:30
+msgid ""
+"You should normally be able to use the default, UTF-8 encoding for all of "
+"your terminal needs. If you do find that you regularly need to use a "
+"different character encoding for a specific task, you can <link xref=\"pref-"
+"profiles#new-profile\">create a new profile</link> with a different encoding."
+msgstr ""
+"Уобичајено би требало да можете да користите подразумевано, УТФ-8 кодирање "
+"за све ваше потребе у терминалу. Ако утврдите да редовно морате да користите "
+"другачије кодирање знакова за одређени задатак, можете <link xref=\"pref-"
+"profiles#new-profile\">направити нови профил</link> са другачијим кодирањем."
+
+#. (itstool) path: item/p
+#: C/pref-profile-encoding.page:49
+msgid "Set the character encoding."
+msgstr "Поставите кодирање знакова."
+
+#. (itstool) path: note/p
+#: C/pref-profile-encoding.page:54
+msgid ""
+"Most modern operating systems now support and use UTF-8 character encoding "
+"by default."
+msgstr ""
+"Већина савремених оперативних система сада подржава и користи УТФ-8 кодирање "
+"знакова по задатости."
+
+#. (itstool) path: info/desc
+#: C/pref-scrolling.page:25
+msgid "Change the scroll output and scrollbar behavior."
+msgstr "Промените излаз клизања и понашање траке клизача."
+
+#. (itstool) path: page/title
+#: C/pref-scrolling.page:28
+msgid "Scrollbar preferences"
+msgstr "Поставке траке клизача"
+
+#. (itstool) path: page/p
+#: C/pref-scrolling.page:30
+msgid ""
+"When a lot of output is printed to your terminal screen, it can be helpful "
+"to have your terminal behave in a specific manner so that it is easier to "
+"work with."
+msgstr ""
+"Када се пуно излаза испише на екрану вашег терминала, може бити корисно да "
+"се ваш терминал понаша на одређени начин како би се олакшао рад са њим."
+
+#. (itstool) path: section/title
+#: C/pref-scrolling.page:35
+msgid "Scrollbar visibility"
+msgstr "Видљивост траке клизача"
+
+#. (itstool) path: section/p
+#: C/pref-scrolling.page:37
+msgid "You can disable the scrollbar:"
+msgstr "Можете онемогућити траку клизача:"
+
+#. (itstool) path: item/p
+#: C/pref-scrolling.page:49 C/pref-scrolling.page:76 C/pref-scrolling.page:101
+#: C/pref-scrolling.page:125 C/pref-scrolling.page:149
+msgid "Select <gui style=\"tab\">Scrolling</gui>."
+msgstr "Изаберите језичак <gui style=\"tab\">Клизање</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-scrolling.page:52
+msgid "Uncheck <gui>Show scrollbar</gui>."
+msgstr "Одзначите <gui>Прикажи траку клизача</gui>."
+
+#. (itstool) path: section/p
+#: C/pref-scrolling.page:56
+msgid "Your preference is saved immediately."
+msgstr "Ваше подешавање је одмах сачувано."
+
+#. (itstool) path: section/title
+#: C/pref-scrolling.page:61
+msgid "Scroll on output"
+msgstr "Клизање при излазу"
+
+#. (itstool) path: section/p
+#: C/pref-scrolling.page:63
+msgid ""
+"You can lock scrolling so that it always shows the newest output while a "
+"command executes and produces output."
+msgstr ""
+"Можете закључати клизање тако да увек приказује најновији излаз док се "
+"наредба извршава и производи излаз."
+
+#. (itstool) path: item/p
+#: C/pref-scrolling.page:79
+msgid "Check <gui style=\"checkbox\">Scroll on output</gui>."
+msgstr "Означите <gui style=\"checkbox\">Клизање при излазу</gui>."
+
+#. (itstool) path: section/title
+#: C/pref-scrolling.page:86
+msgid "Scroll on input"
+msgstr "Клизање при уносу"
+
+#. (itstool) path: section/p
+#: C/pref-scrolling.page:88
+msgid ""
+"You can set the terminal to automatically scroll to the bottom of the window "
+"when you input text into the prompt."
+msgstr ""
+"Можете подесити терминал да аутоматски клизи до дна прозора када унесете "
+"текст у упит."
+
+#. (itstool) path: item/p
+#: C/pref-scrolling.page:104
+msgid "Check <gui style=\"checkbox\">Scroll on keystroke</gui>."
+msgstr "Означите <gui style=\"checkbox\">Клизање на притисак тастера</gui>."
+
+#. (itstool) path: section/title
+#: C/pref-scrolling.page:110
+msgid "Scrollback lines"
+msgstr "Број редова клизача"
+
+#. (itstool) path: section/p
+#: C/pref-scrolling.page:112
+msgid ""
+"You can limit the number of lines of terminal output which are remembered."
+msgstr "Можете ограничити број редова излаза терминала који се памте."
+
+#. (itstool) path: item/p
+#: C/pref-scrolling.page:128
+msgid ""
+"Check <gui>Limit scrollback to</gui> and enter a number of lines to limit "
+"scrollback."
+msgstr ""
+"Означите <gui>Ограничи клизање на</gui> и унесите број редова за "
+"ограничавање историје клизања."
+
+#. (itstool) path: item/p
+#: C/pref-scrolling.page:132
+msgid ""
+"Optionally, you can click on <gui style=\"button\">+</gui> to increase and "
+"<gui style=\"button\">-</gui> to decrease lines."
+msgstr ""
+"Опционално, можете кликнути на <gui style=\"button\">+</gui> за повећање и "
+"<gui style=\"button\">-</gui> за смањење броја редова."
+
+#. (itstool) path: section/p
+#: C/pref-scrolling.page:137
+msgid "You can choose to have unlimited scrollback."
+msgstr "Можете изабрати неограничену историју клизања."
+
+#. (itstool) path: item/p
+#: C/pref-scrolling.page:152
+msgid "Uncheck <gui>Limit scrollback to</gui>."
+msgstr "Одзначите <gui>Ограничи клизање на</gui>."
+
+#. (itstool) path: note/p
+#: C/pref-scrolling.page:157
+msgid ""
+"Scrollback data is stored in compressed and encrypted files on disk, under "
+"the system’s default location for temporary files (usually <file>/tmp</"
+"file>). These files are unlinked immediately after their creation, and as "
+"such, do not show up in the directory listing. The occupied disk space is "
+"freed up as soon as the corresponding terminal closes."
+msgstr ""
+"Подаци о клизању се чувају у сажетим и шифрованим датотекама на диску, под "
+"подразумеваним местом система за привремене датотеке (обично <file>/tmp</"
+"file>). Ове датоке се уклањају одмах након њиховог стварања, и као такве, не "
+"појављују се на списку директоријума. Заузети диск простор се ослобађа чим "
+"се одговарајући терминал затвори."
+
+#. (itstool) path: note/p
+#: C/pref-scrolling.page:166
+msgid ""
+"Make sure you have sufficient disk space available for these temporary "
+"files. If in doubt, monitor disk usage for example with the command <cmd>du /"
+"tmp</cmd>."
+msgstr ""
+"Уверите се да имате довољно простора на диску за ове привремене датотеке. "
+"Ако нисте сигурни, пратите искоришћеност диска на пример наредбом <cmd>du /"
+"tmp</cmd>."
+
+#. (itstool) path: note/p
+#: C/pref-scrolling.page:172
+msgid ""
+"A giant scrollback buffer makes resizing the terminal window slower. As a "
+"rule of thumb, resizing gets noticeably slow at around 1 million lines."
+msgstr ""
+"Огроман бафер историје успорава промену величине прозора терминала. Као "
+"опште правило, промена величине постаје приметно спора на око милион линија."
+
+#. (itstool) path: credit/years
+#: C/pref-tab-window.page:16
+msgid "2014–2015"
+msgstr "2014–2015"
+
+#. (itstool) path: info/desc
+#: C/pref-tab-window.page:26
+msgid "Choose whether to open a new window or a new tab by default."
+msgstr ""
+"Изаберите да ли да се подразумевано отвара нови прозор или нови језичак."
+
+#. (itstool) path: page/title
+#: C/pref-tab-window.page:29
+msgid "Windows and tabs"
+msgstr "Прозори и језичци"
+
+#. (itstool) path: note/p
+#: C/pref-tab-window.page:32
+msgid ""
+"This setting only applies when the <link xref=\"pref-menubar\">menubar is "
+"enabled</link>, or when <app>Terminal</app> is started from the command line "
+"and neither the <cmd>--tab</cmd> nor the <cmd>--window</cmd> options are "
+"passed."
+msgstr ""
+"Ово подешавање се примењује само када је <link xref=\"pref-menubar\">трака "
+"изборника омогућена</link>, или када је <app>Терминал</app> покренут из "
+"линије наредби а нису прослеђене опције <cmd>--tab</cmd> нити <cmd>--window</"
+"cmd>."
+
+#. (itstool) path: page/p
+#: C/pref-tab-window.page:37
+msgid ""
+"You can choose whether to open a new tab or a new <app>Terminal</app> window "
+"when you use <gui style=\"menuitem\">New Terminal</gui>."
+msgstr ""
+"Можете изабрати да ли да се отвори нови језичак или нови прозор "
+"<app>Терминала</app> када користите <gui style=\"menuitem\">Нови терминал</"
+"gui>."
+
+#. (itstool) path: steps/title
+#: C/pref-tab-window.page:41
+msgid "If the menubar is enabled,"
+msgstr "Ако је трака изборника омогућена,"
+
+#. (itstool) path: item/p
+#: C/pref-tab-window.page:43
+msgid ""
+"Select <guiseq><gui style=\"menu\">Edit</gui><gui "
+"style=\"menuitem\">Preferences</gui> <gui style=\"tab\">General</gui></"
+"guiseq>."
+msgstr ""
+"Изаберите <guiseq><gui style=\"menu\">Уреди</gui><gui "
+"style=\"menuitem\">Поставки</gui> <gui style=\"tab\">Опште</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-tab-window.page:48 C/pref-tab-window.page:63
+msgid ""
+"Set <gui>Open new terminals in:</gui> to <gui>Tab</gui> or <gui>Window</gui>."
+msgstr ""
+"Поставите <gui>Отвори нове терминале у:</gui> на <gui>Језичку</gui> или "
+"<gui>Прозору</gui>."
+
+#. (itstool) path: steps/title
+#: C/pref-tab-window.page:54
+msgid "If the menubar is not enabled,"
+msgstr "Ако трака изборника није омогућена,"
+
+#. (itstool) path: page/p
+#: C/pref-tab-window.page:68
+msgid ""
+"Once you have set the preference, you can use <key>Ctrl</key> to invert the "
+"preference. For example, if you have your preferences set to open a new "
+"terminal in a new tab, then pressing <gui style=\"menuitem\">New Terminal</"
+"gui> will open a new tab. On the other hand, if you hold down <key>Ctrl</"
+"key> and then press <gui style=\"menuitem\">New Terminal</gui>, then a new "
+"window will be opened instead."
+msgstr ""
+"Када једном поставите подешавање, можете користити <key>Ctrl</key> да га "
+"преокренете. На пример, ако су ваше поставке подешене да отварају нови "
+"терминал у новом језичку, притисак на <gui style=\"menuitem\">Нови терминал</"
+"gui> ће отворити нови језичак. С друге стране, ако држите притиснут "
+"<key>Ctrl</key> а затим притиснете <gui style=\"menuitem\">Нови терминал</"
+"gui>, уместо тога ће се отворити нови прозор."
+
+#. (itstool) path: info/desc
+#: C/pref-user-input.page:18
+msgid "Do not send user input to the application running in the terminal."
+msgstr "Немојте слати кориснички унос програму који је покренут у терминалу."
+
+#. (itstool) path: page/title
+#: C/pref-user-input.page:23
+msgid "Disable user input"
+msgstr "Онемогући кориснички унос"
+
+#. (itstool) path: page/p
+#: C/pref-user-input.page:25
+msgid ""
+"You can prevent user input into the terminal from being passed to the "
+"application which is currently running in the terminal. This will prevent "
+"any keypresses, mouse clicks and mouse movement from affecting the "
+"application. You will still be able to interact with the terminal itself "
+"using the keyboard for scrolling and your mouse for selecting text. You will "
+"also be able to copy selected text from the terminal, but you will not be "
+"able to paste text into the terminal."
+msgstr ""
+"Можете спречити да се кориснички унос у терминал прослеђује програму који је "
+"тренутно покренут у терминалу. Ово ће спречити да било који притисци "
+"тастера, кликови мишем и покрети миша утичу на програм. И даље ћете моћи да "
+"комуницирате са самим терминалом користећи тастатуру за клизање и миша за "
+"бирање текста. Такође ћете моћи да умножите изабрани текст из терминала, али "
+"нећете моћи да убаците текст у терминал."
+
+#. (itstool) path: page/p
+#: C/pref-user-input.page:33
+msgid "To use the read only mode:"
+msgstr "За коришћење режима само за читање:"
+
+#. (itstool) path: item/p
+#: C/pref-user-input.page:37
+msgid ""
+"Right click in the <app>Terminal</app> window or press the menu button in "
+"the top-right corner of the window."
+msgstr ""
+"Десним кликом у прозору <app>Терминала</app> или притиском на дугме "
+"изборника у горњем десном углу прозора."
+
+#. (itstool) path: item/p
+#: C/pref-user-input.page:41
+msgid "Select <gui style=\"menuitem\">Read-Only</gui> so that it is checked."
+msgstr ""
+"Изаберите <gui style=\"menuitem\">Само за читање</gui> тако да буде означено."
+
+#. (itstool) path: page/p
+#: C/pref-user-input.page:45
+msgid ""
+"You can disable the read only mode by unchecking <gui "
+"style=\"menuitem\">Read-Only</gui>."
+msgstr ""
+"Можете онемогућити режим само за читање поништавањем ознаке <gui "
+"style=\"menuitem\">Само за читање</gui>."
+
+#. (itstool) path: info/desc
+#: C/prob-reset.page:24
+msgid ""
+"How do I recover my <app>Terminal</app> screen when it becomes stuck or has "
+"lot of strange symbols on it?"
+msgstr ""
+"Како да повратим екран <app>Терминала</app> када се заглави или има пуно "
+"чудних симбола на њему?"
+
+#. (itstool) path: page/title
+#: C/prob-reset.page:28
+msgid "Reset your <app>Terminal</app> state"
+msgstr "Поново поставите стање вашег <app>Терминала</app>"
+
+#. (itstool) path: page/p
+#: C/prob-reset.page:30
+msgid ""
+"After viewing a non-text file by mistake, or launching some command, it can "
+"happen the <app>Terminal</app> screen is unresponsive, has strange letters "
+"printed when you press keys. You can recover your <app>Terminal</app> in the "
+"following ways:"
+msgstr ""
+"Након што грешком прегледате нетекстуалну датотеку или покренете неку "
+"наредбу, може се десити да екран <app>Терминала</app> не одговара или да су "
+"исписана чудна слова када притиснете тастере. Можете опоравити ваш "
+"<app>Терминал</app> на следеће начине:"
+
+#. (itstool) path: section/title
+#: C/prob-reset.page:36
+msgid "Reset"
+msgstr "Ресетуј"
+
+#. (itstool) path: section/p
+#: C/prob-reset.page:38
+msgid "Reset <app>Terminal</app> screen."
+msgstr "Ресетујте екран <app>Терминала</app>."
+
+#. (itstool) path: item/p
+#: C/prob-reset.page:42
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Advanced</gui><gui style=\"menuitem\">Reset</"
+"gui></guiseq>."
+msgstr ""
+"Притисните дугме менија у горњем десном углу прозора и изаберите "
+"<guiseq><gui style=\"menuitem\">Напредно</gui><gui "
+"style=\"menuitem\">Ресетуј</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/prob-reset.page:47 C/prob-reset.page:68
+msgid "To obtain the prompt press <key>Enter</key>."
+msgstr "Да бисте добили упит, притисните <key>Enter</key>."
+
+#. (itstool) path: section/title
+#: C/prob-reset.page:54
+msgid "Reset and Clear"
+msgstr "Поново постави и очисти"
+
+#. (itstool) path: section/p
+#: C/prob-reset.page:56
+msgid ""
+"In addition to resetting your <app>Terminal</app>, <gui "
+"style=\"menuitem\">Reset and Clear</gui> clears the visible <app>Terminal</"
+"app> screen space and the scrollback contents. To <gui "
+"style=\"menuitem\">Reset and Clear</gui> your <app>Terminal</app>:"
+msgstr ""
+"Поред ресетовања вашег <app>Терминала</app>, <gui style=\"menuitem\">Ресетуј "
+"и очисти</gui> чисти видљиви простор екрана <app>Терминала</app> и садржај "
+"историје. Да бисте извршили <gui style=\"menuitem\">Ресетуј и очисти</gui> "
+"на вашем <app>Терминалу</app>:"
+
+#. (itstool) path: item/p
+#: C/prob-reset.page:63
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Advanced</gui><gui style=\"menuitem\">Reset "
+"and Clear</gui></guiseq>."
+msgstr ""
+"Притисните дугме менија у горњем десном углу прозора и изаберите "
+"<guiseq><gui style=\"menuitem\">Напредно</gui><gui "
+"style=\"menuitem\">Ресетуј и очисти</gui></guiseq>."
+
+#. (itstool) path: note/p
+#: C/prob-reset.page:72
+msgid ""
+"<gui>Reset and Clear</gui> provides similar functionality as the terminal "
+"command <cmd>reset</cmd>."
+msgstr ""
+"<gui>Ресетуј и очисти</gui> обезбеђује сличну функционалност као наредба "
+"терминала <cmd>reset</cmd>."
+
+#. (itstool) path: info/desc
+#: C/txt-copy-paste.page:29
+msgid "Copy and paste text in <app>Terminal</app>."
+msgstr "Копирајте и убаците текст у <app>Терминал</app>."
+
+#. (itstool) path: page/title
+#: C/txt-copy-paste.page:33
+msgid "Copy and paste"
+msgstr "Копирање и убацивање"
+
+#. (itstool) path: page/p
+#: C/txt-copy-paste.page:35
+msgid ""
+"You can copy and paste text in <app>Terminal</app> in a similar way to other "
+"applications. However, the keyboard shortcuts differ."
+msgstr ""
+"Можете копирати и убацити текст у <app>Терминал</app> на сличан начин као у "
+"другим програмима. Међутим, пречице на тастатури се разликују."
+
+#. (itstool) path: item/title
+#: C/txt-copy-paste.page:40
+msgid "<gui>Copy</gui>"
+msgstr "<gui>Копирај</gui>"
+
+#. (itstool) path: item/p
+#: C/txt-copy-paste.page:41
+msgid ""
+"Highlight the text portions you wish to copy, then right click on the text "
+"portion and select <gui style=\"menuitem\">Copy</gui>. Alternatively, you "
+"can press <keyseq><key>Shift</key><key>Ctrl</key><key>C</key></keyseq>."
+msgstr ""
+"Истакните делове текста које желите да копирате, затим десним тастером миша "
+"кликните на део текста и изаберите <gui style=\"menuitem\">Копирај</gui>. "
+"Алтернативно, можете притиснути <keyseq><key>Shift</key><key>Ctrl</"
+"key><key>C</key></keyseq>."
+
+#. (itstool) path: item/title
+#: C/txt-copy-paste.page:47
+msgid "<gui>Copy as HTML</gui>"
+msgstr "<gui>Копирај као ХТМЛ</gui>"
+
+#. (itstool) path: item/p
+#: C/txt-copy-paste.page:48
+msgid ""
+"Highlight the text portions you wish to copy with color and font attributes, "
+"then right click on the text portion and select <gui style=\"menuitem\">Copy "
+"as HTML</gui>."
+msgstr ""
+"Истакните делове текста које желите да копирате са атрибутима боје и фонта, "
+"затим десним тастером миша кликните на део текста и изаберите <gui "
+"style=\"menuitem\">Копирај као ХТМЛ</gui>."
+
+#. (itstool) path: item/title
+#: C/txt-copy-paste.page:53
+msgid "<gui>Paste</gui>"
+msgstr "<gui>Убаци</gui>"
+
+#. (itstool) path: item/p
+#: C/txt-copy-paste.page:54
+msgid ""
+"Right click in the <app>Terminal</app> and select <gui "
+"style=\"menuitem\">Paste</gui>. Alternatively, you can press "
+"<keyseq><key>Shift</key><key>Ctrl</key><key>V</key></keyseq>."
+msgstr ""
+"Кликните десним тастером миша у <app>Терминал</app> и изаберите <gui "
+"style=\"menuitem\">Убаци</gui>. Алтернативно, можете притиснути "
+"<keyseq><key>Shift</key><key>Ctrl</key><key>V</key></keyseq>."
+
+#. (itstool) path: note/p
+#: C/txt-copy-paste.page:62
+msgid ""
+"The standard keyboard shortcuts, such as <keyseq><key>Ctrl</key><key>C</"
+"key></keyseq>, cannot be used to copy and paste text."
+msgstr ""
+"Стандардне пречице на тастатури, као што је <keyseq><key>Ctrl</key><key>C</"
+"key></keyseq>, не могу се користити за копирање и убацивање текста."
+
+#. (itstool) path: info/desc
+#: C/txt-links.page:27
+msgid "Open links to web and email addresses."
+msgstr "Отворите везе ка веб и е-адресама."
+
+#. (itstool) path: page/title
+#: C/txt-links.page:30
+msgid "Hyperlinks and email addresses"
+msgstr "Хипервезе и е-адресе"
+
+#. (itstool) path: page/p
+#: C/txt-links.page:32
+msgid ""
+"<app>Terminal</app> parses the terminal output and automatically detects "
+"snippets of text that are web addresses or email addresses. Web and email "
+"addresses are automatically highlighted when you point your cursor to the "
+"text, indicating that the link can be opened in an application."
+msgstr ""
+"<app>Терминал</app> рашчлањује излаз терминала и аутоматски открива делове "
+"текста који су веб адресе или е-адресе. Веб и е-адресе се аутоматски истичу "
+"када усмерите курсор на текст, указујући да се веза може отворити у програму."
+
+#. (itstool) path: page/p
+#: C/txt-links.page:37
+msgid ""
+"For example, you may see <output>http://www.gnome.org</output> or "
+"<output>username@example.com</output> generated as a part of terminal output "
+"by programs such as <app>wget</app> or <app>curl</app>."
+msgstr ""
+"На пример, можете видети <output>http://www.gnome.org</output> or "
+"<output>username@example.com</output> који су део излаза терминала програма "
+"као што су <app>wget</app> или <app>curl</app>."
+
+#. (itstool) path: section/title
+#: C/txt-links.page:42
+msgid "Open or copy web addresses"
+msgstr "Отварање или умножавање веб адреса"
+
+#. (itstool) path: section/p
+#: C/txt-links.page:44
+msgid ""
+"Web addresses are also called hyperlinks. They can be copied to the system "
+"clipboard or opened in your preferred web browser."
+msgstr ""
+"Веб адресе се називају и хипервезама. Могу се умножити у оставу система или "
+"отворити у вашем омиљеном веб прегледачу."
+
+#. (itstool) path: item/p
+#: C/txt-links.page:49
+msgid "Copy a hyperlink:"
+msgstr "Умножавање хипервезе:"
+
+#. (itstool) path: item/p
+#: C/txt-links.page:52
+msgid "Right click on the link in <app>Terminal</app>."
+msgstr "Десним тастером миша кликните на везу у <app>Терминалу</app>."
+
+#. (itstool) path: item/p
+#: C/txt-links.page:55
+msgid "Select <gui style=\"menuitem\">Copy Link</gui>."
+msgstr "Изаберите <gui style=\"menuitem\">Умножи везу</gui>."
+
+#. (itstool) path: item/p
+#: C/txt-links.page:60
+msgid "Open a hyperlink in your web browser:"
+msgstr "Отварање хипервезе у веб прегледачу:"
+
+#. (itstool) path: item/p
+#: C/txt-links.page:63
+msgid "Right click on the hyperlink."
+msgstr "Десним тастером миша кликните на хипервезу."
+
+#. (itstool) path: item/p
+#: C/txt-links.page:66
+msgid "Select <gui style=\"menuitem\">Open Link</gui>."
+msgstr "Изаберите <gui style=\"menuitem\">Отвори везу</gui>."
+
+#. (itstool) path: section/title
+#: C/txt-links.page:75
+msgid "Email or copy email addresses"
+msgstr "Слање е-поште или умножавање адреса е-поште"
+
+#. (itstool) path: section/p
+#: C/txt-links.page:77
+msgid ""
+"Email addresses can be copied to the system clipboard or opened in your "
+"preferred email client."
+msgstr ""
+"Адресе е-поште се могу умножити у оставу система или отворити у вашем "
+"омиљеном клијенту е-поште."
+
+#. (itstool) path: item/p
+#: C/txt-links.page:82
+msgid "Copy an email address:"
+msgstr "Умножавање адресе е-поште:"
+
+#. (itstool) path: item/p
+#: C/txt-links.page:85
+msgid "Right click on the email address in <app>Terminal</app>."
+msgstr ""
+"Десним тастером миша кликните на адресу е-поште у <app>Терминалу</app>."
+
+#. (itstool) path: item/p
+#: C/txt-links.page:88
+msgid "Select <gui style=\"menuitem\">Copy Mail Address</gui>."
+msgstr "Изаберите <gui style=\"menuitem\">Умножи адресу е-поште</gui>."
+
+#. (itstool) path: item/p
+#: C/txt-links.page:93
+msgid "Send mail to the email address using your email client:"
+msgstr "Слање поруке на адресу е-поште користећи ваш клијент е-поште:"
+
+#. (itstool) path: item/p
+#: C/txt-links.page:96
+msgid "Right click on the address."
+msgstr "Десним тастером миша кликните на адресу."
+
+#. (itstool) path: item/p
+#: C/txt-links.page:99
+msgid "Select <gui style=\"menuitem\">Send Mail To…</gui>."
+msgstr "Изаберите <gui style=\"menuitem\">Пошаљи е-пошту на…</gui>."
+
+#. (itstool) path: info/desc
+#: C/txt-search.page:29
+msgid "Search the <app>Terminal</app> output."
+msgstr "Претрага излаза <app>Терминала</app>."
+
+#. (itstool) path: page/title
+#: C/txt-search.page:33
+msgid "Search for text"
+msgstr "Текст за претрагу"
+
+#. (itstool) path: page/p
+#: C/txt-search.page:35
+msgid "You can search text in the <app>Terminal</app> output:"
+msgstr "Можете претраживати текст у излазу <app>Терминала</app>:"
+
+#. (itstool) path: item/p
+#: C/txt-search.page:39
+msgid ""
+"Press <_:media-1/> in the top-right corner, or press <keyseq><key>Ctrl</"
+"key><key>Shift</key><key>F</key></keyseq>."
+msgstr ""
+"Притисните <_:media-1/> у горњем десном углу, или притисните "
+"<keyseq><key>Ctrl</key><key>Shift</key><key>F</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/txt-search.page:44
+msgid ""
+"Type in the search keyword and press <key>Enter</key> to search backwards. "
+"Alternatively, click on the arrows according to the desired search direction."
+msgstr ""
+"Укуцајте кључну реч за претрагу и притисните <key>Ентер</key> за претрагу "
+"уназад. Алтернативно, кликните на стрелице у зависности од жељеног смера "
+"претраге."
+
+#. (itstool) path: page/p
+#: C/txt-search.page:50
+msgid "You can search using the following options to narrow down your results:"
+msgstr ""
+"Можете претраживати користећи следеће опције како бисте сузили ваше "
+"резултате:"
+
+#. (itstool) path: item/title
+#: C/txt-search.page:55
+msgid "<gui style=\"checkbox\">Match case</gui>"
+msgstr "<gui style=\"checkbox\">Разликуј мала и велика слова</gui>"
+
+#. (itstool) path: item/p
+#: C/txt-search.page:56
+msgid ""
+"Make the search case sensitive: this restricts results to only those that "
+"match the case of your search keyword."
+msgstr ""
+"Учините претрагу осетљивом на величину слова: ово ограничава резултате само "
+"на оне који се подударају са величином слова ваше кључне речи за претрагу."
+
+#. (itstool) path: item/title
+#: C/txt-search.page:60
+msgid "<gui style=\"checkbox\">Match entire word only</gui>"
+msgstr "<gui style=\"checkbox\">Подударај само целе речи</gui>"
+
+#. (itstool) path: item/p
+#: C/txt-search.page:61
+msgid ""
+"<app>Terminal</app> will look for the entire keyword and will ignore results "
+"that partially match your search keyword. For example, if you have searched "
+"for “cat”, <app>Terminal</app> will show only results that match this "
+"keyword exactly and omit results such as “bobcat”."
+msgstr ""
+"<app>Терминал</app> ће тражити целу кључну реч и занемариће резултате који "
+"се делимично подударају са вашом кључном речи за претрагу. На пример, ако "
+"сте тражили „cat“, <app>Терминал</app> ће приказати само резултате који се "
+"тачно подударају са овом кључном речју и изоставиће резултате као што је "
+"„bobcat“."
+
+#. (itstool) path: item/title
+#: C/txt-search.page:68
+msgid "<gui style=\"checkbox\">Match as regular expression</gui>"
+msgstr "<gui style=\"checkbox\">Подударај као регуларни израз</gui>"
+
+#. (itstool) path: item/p
+#: C/txt-search.page:69
+msgid ""
+"You can use regular expression patterns, also known as regex patterns, in "
+"your search keywords. <app>Terminal</app> will display the results that "
+"match these search terms."
+msgstr ""
+"Можете користити обрасце регуларних израза, познате и као регекс обрасци, у "
+"вашим кључним речима за претрагу. <app>Терминал</app> ће приказати резултате "
+"који се подударају са овим терминима за претрагу."
+
+#. (itstool) path: item/title
+#: C/txt-search.page:74
+msgid "<gui style=\"checkbox\">Wrap around</gui>"
+msgstr "<gui style=\"checkbox\">Преламај укруг</gui>"
+
+#. (itstool) path: item/p
+#: C/txt-search.page:75
+msgid ""
+"<app>Terminal</app> searches from your current location in the scrollback to "
+"the end of available terminal output and then restarts the search."
+msgstr ""
+"<app>Терминал</app> претражује од ваше тренутне локације у историји до краја "
+"доступног излаза терминала, а затим поново покреће претрагу."
+
+#. (itstool) path: note/p
+#: C/txt-search.page:82
+msgid ""
+"If you expect to work with a lot of <app>Terminal</app> output, increase the "
+"<link xref=\"pref-scrolling#lines\">scrollback lines</link> to a higher "
+"limit to allow <app>Terminal</app> to search further back."
+msgstr ""
+"Ако очекујете да ћете радити са пуно излаза <app>Терминала</app>, повећајте "
+"<link xref=\"pref-scrolling#lines\">редове историје</link> на веће "
+"ограничење како бисте омогућили <app>Терминалу</app> да претражује даље "
+"уназад."
+
+#. (itstool) path: credit/years
+#: C/txt-select-text.page:20
+msgid "2013, 2015"
+msgstr "2013, 2015"
+
+#. (itstool) path: info/desc
+#: C/txt-select-text.page:25
+msgid "Select individual words or lines in the terminal."
+msgstr "Одаберите појединачне речи или редове у терминалу."
+
+#. (itstool) path: page/title
+#: C/txt-select-text.page:29
+msgid "Text selection"
+msgstr "Избор текста"
+
+#. (itstool) path: page/p
+#: C/txt-select-text.page:31
+msgid ""
+"You can select a word or a sentence, or make a rectangular selection from "
+"your terminal output:"
+msgstr ""
+"Можете одабрати реч или реченицу, или направити правоугаони избор из излаза "
+"вашег терминала:"
+
+#. (itstool) path: item/title
+#: C/txt-select-text.page:36
+msgid "Select a word"
+msgstr "Одаберите реч"
+
+#. (itstool) path: item/p
+#: C/txt-select-text.page:37
+msgid "Double click on the word."
+msgstr "Двапут кликните на реч."
+
+#. (itstool) path: item/title
+#: C/txt-select-text.page:40
+msgid "Select a line"
+msgstr "Одаберите ред"
+
+#. (itstool) path: item/p
+#: C/txt-select-text.page:41
+msgid "Triple click on the line."
+msgstr "Трипут кликните на ред."
+
+#. (itstool) path: item/title
+#: C/txt-select-text.page:44
+msgid "Make a rectangular selection"
+msgstr "Направите правоугаони избор"
+
+#. (itstool) path: item/p
+#: C/txt-select-text.page:45
+msgid ""
+"Hold down the <key>Ctrl</key>, click and hold down the left mouse button "
+"then drag the mouse."
+msgstr ""
+"Држите притиснут тастер <key>Ctrl</key>, кликните и држите леви тастер миша, "
+"а затим га превуците."
+
+#. (itstool) path: note/p
+#: C/txt-select-text.page:51
+msgid ""
+"If you are running an application in <app>Terminal</app> which accepts mouse "
+"input, you need to use the <key>Shift</key> modifier for the <app>Terminal</"
+"app> to catch the mouse input."
+msgstr ""
+"Ако у <app>Терминалу</app> покрећете програм који прихвата унос мишем, "
+"морате да користите тастер <key>Shift</key> како би <app>Терминал</app> "
+"могао да ухвати унос миша."
