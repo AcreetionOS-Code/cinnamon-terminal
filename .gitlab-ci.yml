@@ -113,8 +113,10 @@ package:arch:
         echo "Uploading $(basename $pkg) to package registry..."
         curl --header "JOB-TOKEN: $CI_JOB_TOKEN" \
              --upload-file "$pkg" \
+             --connect-timeout 10 --max-time 120 \
+             --retry 3 \
              "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/cinnamon-terminal/${PKGVER}/$(basename $pkg)" \
-             --fail --write "\nUploaded: $(basename $pkg) ✓\n" || \
+             --fail -w "\nUploaded: $(basename $pkg)\n" || \
           echo "WARNING: Upload failed — nginx client_max_body_size may still be too low"
       done
   rules:
