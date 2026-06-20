@@ -84,6 +84,7 @@ test:linux:
 # ─── Stage: package ───────────────────────────────────────────────────────────
 
 # Arch Linux package (.pkg.tar.zst)
+# Uploaded to GitLab Package Registry (bypasses nginx artifact size limit)
 package:arch:
   stage: package
   before_script:
@@ -91,10 +92,13 @@ package:arch:
     - tar -czf "cinnamon-terminal-$PKGVER.tar.gz" --transform "s|^\./|cinnamon-terminal-$PKGVER/|" --exclude-vcs -C "$CI_PROJECT_DIR" . || true
   script:
     - makepkg -s --noconfirm
-  artifacts:
-    paths:
-      - cinnamon-terminal-*.pkg.tar.zst
-    expire_in: 1 month
+    - |
+      for pkg in cinnamon-terminal-*.pkg.tar.zst; do
+        echo "Uploading $pkg to package registry..."
+        curl --header "JOB-TOKEN: $CI_JOB_TOKEN" \
+             --upload-file "$pkg" \
+             "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/cinnamon-terminal/${PKGVER}/$(basename $pkg)"
+      done
   rules:
     - if: $CI_COMMIT_TAG
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
