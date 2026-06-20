@@ -37,7 +37,6 @@ sha256sums=('SKIP')
 
 build() {
   arch-meson "$srcdir/$pkgname-$pkgver" build \
-    -Dbuildtype=release \
     -Ddocs=true \
     -Dnautilus_extension=true \
     -Dsearch_provider=true
