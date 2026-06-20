@@ -130,8 +130,8 @@ package:flatpak:
   stage: package
   needs: []
   script:
-    - flatpak-builder --system --force-clean flatpak-build flatpak/org.gnome.Terminal.json
-    - flatpak build-bundle flatpak-build cinnamon-terminal.flatpak org.gnome.Terminal
+    - flatpak-builder --system --force-clean --repo=flatpak-repo flatpak-build flatpak/org.gnome.Terminal.json
+    - flatpak build-bundle flatpak-repo cinnamon-terminal.flatpak org.gnome.Terminal
   artifacts:
     paths:
       - cinnamon-terminal.flatpak
