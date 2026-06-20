@@ -35,14 +35,13 @@ variables:
 # ─── Default rules ────────────────────────────────────────────────────────────
 
 .default_rules: &default_rules
-  rules:
-    - if: $CI_MERGE_REQUEST_ID
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-    - if: $CI_COMMIT_BRANCH =~ /^gnome-/
-    - if: $CI_COMMIT_BRANCH =~ /^cinnamon-/
-    - if: $CI_COMMIT_BRANCH == "unstable"
-    - if: $CI_COMMIT_BRANCH =~ /^release\//
-    - if: $CI_COMMIT_TAG
+  - if: $CI_MERGE_REQUEST_ID
+  - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  - if: $CI_COMMIT_BRANCH =~ /^gnome-/
+  - if: $CI_COMMIT_BRANCH =~ /^cinnamon-/
+  - if: $CI_COMMIT_BRANCH == "unstable"
+  - if: $CI_COMMIT_BRANCH =~ /^release\//
+  - if: $CI_COMMIT_TAG
 
 # ─── Stage: build ─────────────────────────────────────────────────────────────
 
@@ -61,10 +60,6 @@ build:linux:
       -Dsearch_provider=true
     - meson compile -C build
     - meson test -C build --verbose || true
-  artifacts:
-    paths:
-      - build/
-    expire_in: 1 week
   rules: *default_rules
   tags:
     - linux
@@ -74,7 +69,18 @@ build:linux:
 test:linux:
   stage: test
   needs: ["build:linux"]
+  before_script:
+    - sudo pacman -S --noconfirm --needed
+      meson ninja gettext glib2 gtk3 gtk4 libadwaita
+      vte3 vte4 pcre2 gsettings-desktop-schemas
+      libxslt itstool appstream-glib
   script:
+    - meson setup build --prefix=/usr
+      -Dbuildtype=release
+      -Ddocs=true
+      -Dnautilus_extension=true
+      -Dsearch_provider=true
+    - meson compile -C build
     - meson test -C build --verbose || true
   rules: *default_rules
   tags:
@@ -191,8 +197,7 @@ release:create:
   stage: release
   needs: ["build:linux", "test:linux"]
   script:
-    - apt-get update -qq
-    - apt-get install -y -qq curl jq
+    - sudo pacman -S --noconfirm --needed curl jq
     - VERSION="${CI_COMMIT_TAG#v}"
     - echo "Releasing version $VERSION from tag $CI_COMMIT_TAG"
     - chmod +x scripts/release-changelog.sh
