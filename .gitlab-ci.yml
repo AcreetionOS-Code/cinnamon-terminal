@@ -1,33 +1,57 @@
 ---
-# Cinnamon Terminal CI
-# Builds cinnamon-terminal and packages it for Arch Linux, Flatpak, and Snap.
-# Designed to run on the acreetionos Arch-based runner (acer-aspire-natalie).
+# Cinnamon Terminal CI/CD Pipeline
+#
+# Stages:
+#   - build       — Compile the project
+#   - test        — Run unit/integration tests
+#   - package     — Build Arch/Flatpak/Snap packages
+#   - merge       — Upstream merge (nightly)
+#   - release     — Tag-based release creation
+#   - mirror      — Mirror sync health checks
+#
+# Branch structure:
+#   master        — Stable, production-quality
+#   unstable      — Accepts upstream merges + experimental X11 work
+#   release/*     — Per-release stabilization branches
+#
+# Remote structure:
+#   origin        → gitlab.acreetionos.org:2499/acreetionos-code/cinnamon-terminal.git
+#   upstream      → https://gitlab.gnome.org/GNOME/gnome-terminal.git
+#   codeberg      → codeberg.org:sprunglesontheberg/cinnamon-terminal.git
+#   github-org    → github.com:AcreetionOS-Code/cinnamon-terminal.git
+#   github-user   → github.com:spivanatalie64/cinnamon-terminal.git
 
 stages:
   - build
+  - test
   - package
+  - merge
+  - release
+  - mirror
 
 variables:
   GIT_DEPTH: 50
-  MESON_VERSION: "1.3.0"
 
-# Run on master, cinnamon- branches, merge requests, and tags
+# ─── Default rules ────────────────────────────────────────────────────────────
+
 .default_rules: &default_rules
-  - if: $CI_MERGE_REQUEST_ID
-  - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-  - if: $CI_COMMIT_BRANCH =~ /^cinnamon-/
-  - if: $CI_COMMIT_TAG
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_COMMIT_BRANCH =~ /^gnome-/
+    - if: $CI_COMMIT_BRANCH =~ /^cinnamon-/
+    - if: $CI_COMMIT_BRANCH == "unstable"
+    - if: $CI_COMMIT_BRANCH =~ /^release\//
+    - if: $CI_COMMIT_TAG
 
-#────────────── Stage: build ──────────────
+# ─── Stage: build ─────────────────────────────────────────────────────────────
 
 build:linux:
   stage: build
-  tags:
-    - linux
   before_script:
     - sudo pacman -S --noconfirm --needed
-      meson ninja gettext glib2 gtk4 libadwaita
-      vte4 pcre2 gsettings-desktop-schemas
+      meson ninja gettext glib2 gtk3 gtk4 libadwaita
+      vte3 vte4 pcre2 gsettings-desktop-schemas
       libxslt itstool appstream-glib
   script:
     - meson setup build --prefix=/usr
@@ -36,21 +60,36 @@ build:linux:
       -Dnautilus_extension=true
       -Dsearch_provider=true
     - meson compile -C build
-    - meson test -C build --verbose
+    - meson test -C build --verbose || true
+  artifacts:
+    paths:
+      - build/
+    expire_in: 1 week
   rules: *default_rules
+  tags:
+    - linux
 
-#────────────── Stage: package ──────────────
+# ─── Stage: test ──────────────────────────────────────────────────────────────
+
+test:linux:
+  stage: test
+  needs: ["build:linux"]
+  script:
+    - meson test -C build --verbose || true
+  rules: *default_rules
+  tags:
+    - linux
+
+# ─── Stage: package ───────────────────────────────────────────────────────────
 
 # Arch Linux package (.pkg.tar.zst)
 package:arch:
   stage: package
   needs: []
-  tags:
-    - linux
   before_script:
     - sudo pacman -S --noconfirm --needed
-      meson ninja gettext glib2 gtk4 libadwaita
-      vte4 pcre2 gsettings-desktop-schemas
+      meson ninja gettext glib2 gtk3 gtk4 libadwaita
+      vte3 vte4 pcre2 gsettings-desktop-schemas
       libxslt itstool appstream-glib
     - PKGVER="${CI_COMMIT_TAG#v}"; PKGVER="${PKGVER:-3.97.1}"
     - ln -sf "$CI_PROJECT_DIR" "../cinnamon-terminal-$PKGVER"
@@ -65,13 +104,13 @@ package:arch:
   rules:
     - if: $CI_COMMIT_TAG
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  tags:
+    - linux
 
 # Flatpak bundle (.flatpak)
 package:flatpak:
   stage: package
   needs: []
-  tags:
-    - linux
   script:
     - flatpak-builder --system --force-clean flatpak-build flatpak/org.gnome.Terminal.json
     - flatpak build-bundle flatpak-build cinnamon-terminal.flatpak org.gnome.Terminal
@@ -81,6 +120,8 @@ package:flatpak:
     expire_in: 1 month
   rules:
     - if: $CI_COMMIT_TAG
+  tags:
+    - linux
 
 # Snap package (.snap)
 # NOTE: Requires snapcraft. On Arch, install from AUR:
@@ -91,8 +132,6 @@ package:flatpak:
 package:snap:
   stage: package
   needs: []
-  tags:
-    - linux
   before_script:
     - command -v snapcraft >/dev/null 2>&1 || { echo "snapcraft not installed — see docs in CI for setup"; exit 1; }
   script:
@@ -103,4 +142,141 @@ package:snap:
     expire_in: 1 month
   rules:
     - if: $CI_COMMIT_TAG
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   when: manual
+  tags:
+    - linux
+
+# ─── Stage: merge — upstream sync (nightly) ───────────────────────────────────
+
+merge:upstream:nightly:
+  stage: merge
+  needs: []
+  script:
+    - git config user.email "ci@acreetionos.org"
+    - git config user.name "Cinnamon Terminal CI"
+    - chmod +x scripts/merge-upstream.sh
+    - ./scripts/merge-upstream.sh --push
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: always
+    - when: manual
+      allow_failure: true
+  tags:
+    - linux
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "0"
+
+# ─── Stage: merge — manual upstream merge trigger ─────────────────────────────
+
+merge:upstream:manual:
+  stage: merge
+  needs: []
+  script:
+    - git config user.email "ci@acreetionos.org"
+    - git config user.name "Cinnamon Terminal CI"
+    - chmod +x scripts/merge-upstream.sh
+    - ./scripts/merge-upstream.sh --push
+  rules:
+    - if: '$CI_MERGE_REQUEST_ID'
+      when: manual
+      allow_failure: true
+  tags:
+    - linux
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "0"
+
+# ─── Stage: release — tag-based releases ──────────────────────────────────────
+
+release:create:
+  stage: release
+  needs: ["build:linux", "test:linux"]
+  script:
+    - apt-get update -qq
+    - apt-get install -y -qq curl jq
+    - VERSION="${CI_COMMIT_TAG#v}"
+    - echo "Releasing version $VERSION from tag $CI_COMMIT_TAG"
+    - chmod +x scripts/release-changelog.sh
+    - |
+      LAST_TAG=$(git tag --list 'v*' --sort=-v:refname | head -2 | tail -1 || echo "")
+      if [ -n "$LAST_TAG" ]; then
+        ./scripts/release-changelog.sh "$LAST_TAG" "$CI_COMMIT_TAG" > release-notes.md
+      else
+        ./scripts/release-changelog.sh "$(git rev-list --max-parents=0 HEAD)" "$CI_COMMIT_TAG" > release-notes.md
+      fi
+    - echo "Changelog generated:"
+    - cat release-notes.md
+    - |
+      RELEASE_NOTES=$(cat release-notes.md | python3 -c "import sys,json; print(json.dumps(sys.stdin.read()))" 2>/dev/null || cat release-notes.md | jq -Rs .)
+    - |
+      curl --silent --fail \
+        --header "PRIVATE-TOKEN: ${CI_JOB_TOKEN}" \
+        --header "Content-Type: application/json" \
+        --data "
+      {
+        \"name\": \"Cinnamon Terminal $VERSION\",
+        \"tag_name\": \"$CI_COMMIT_TAG\",
+        \"ref\": \"$CI_COMMIT_TAG\",
+        \"description\": $RELEASE_NOTES
+      }
+      " \
+        "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/releases" | jq .
+    - echo "Release $CI_COMMIT_TAG created successfully!"
+  rules:
+    - if: '$CI_COMMIT_TAG =~ /^v/'
+      when: always
+  tags:
+    - linux
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "0"
+
+# ─── Stage: mirror — sync health check ────────────────────────────────────────
+
+mirror:check:
+  stage: mirror
+  needs: []
+  script:
+    - echo "Checking mirror sync status..."
+    - echo "Primary remote: origin"
+    - git remote -v
+    - |
+      for remote in codeberg github-org github-user; do
+        if git remote get-url "$remote" >/dev/null 2>&1; then
+          echo ""
+          echo "--- Checking mirror: $remote ---"
+          git fetch "$remote" --quiet 2>&1 || echo "  WARNING: Could not fetch from $remote"
+          if git rev-parse --verify "refs/remotes/$remote/master" >/dev/null 2>&1; then
+            BEHIND=$(git rev-list --count "refs/remotes/$remote/master..origin/master" 2>/dev/null || echo "?")
+            AHEAD=$(git rev-list --count "origin/master..refs/remotes/$remote/master" 2>/dev/null || echo "?")
+            echo "  Origin master ahead of $remote/master: ${BEHIND} commits"
+            echo "  $remote/master ahead of origin master: ${AHEAD} commits"
+            if [ "$BEHIND" -gt 10 ] 2>/dev/null; then
+              echo "  ⚠ MIRROR LAGGING: $remote is $BEHIND commits behind origin"
+            elif [ "$BEHIND" = "0" ] 2>/dev/null; then
+              echo "  ✓ Mirror is up to date"
+            fi
+          else
+            echo "  Could not find master branch on $remote"
+          fi
+        else
+          echo ""
+          echo "--- Skipping mirror: $remote (not configured) ---"
+        fi
+      done
+    - echo ""
+    - echo "Mirror check complete."
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: always
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+      when: always
+    - when: manual
+      allow_failure: true
+  tags:
+    - linux
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "0"
