@@ -5,7 +5,6 @@
 
 stages:
   - build
-  - test
   - package
 
 variables:
@@ -37,24 +36,7 @@ build:linux:
       -Dnautilus_extension=true
       -Dsearch_provider=true
     - meson compile -C build
-  artifacts:
-    paths:
-      - build/
-    expire_in: 1 week
-  rules: *default_rules
-
-#────────────── Stage: test ──────────────
-
-test:linux:
-  stage: test
-  needs: ["build:linux"]
-  tags:
-    - linux
-  script:
     - meson test -C build --verbose
-  artifacts:
-    reports:
-      junit: build/meson-logs/testlog-junit.xml
   rules: *default_rules
 
 #────────────── Stage: package ──────────────
@@ -65,6 +47,16 @@ package:arch:
   needs: []
   tags:
     - linux
+  before_script:
+    - sudo pacman -S --noconfirm --needed
+      meson ninja gettext glib2 gtk4 libadwaita
+      vte4 pcre2 gsettings-desktop-schemas
+      libxslt itstool appstream-glib
+    - # Create source tarball so makepkg doesn't download
+    - PKGVER="${CI_COMMIT_TAG#v}"; PKGVER="${PKGVER:-3.97.1}"
+    - ln -sf "$CI_PROJECT_DIR" "../cinnamon-terminal-$PKGVER"
+    - tar -chzf "cinnamon-terminal-$PKGVER.tar.gz" -C .. "cinnamon-terminal-$PKGVER"
+    - rm -f "../cinnamon-terminal-$PKGVER"
   script:
     - makepkg -s --noconfirm
   artifacts:
