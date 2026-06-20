@@ -241,8 +241,8 @@ mirror:check:
   stage: mirror
   needs: []
   script:
-    - echo "Checking mirror sync status..."
-    - echo "Primary remote: origin"
+    - 'echo "Checking mirror sync status..."'
+    - 'echo "Primary remote: origin"'
     - git remote -v
     - |
       for remote in codeberg github-org github-user; do
@@ -256,9 +256,9 @@ mirror:check:
             echo "  Origin master ahead of $remote/master: ${BEHIND} commits"
             echo "  $remote/master ahead of origin master: ${AHEAD} commits"
             if [ "$BEHIND" -gt 10 ] 2>/dev/null; then
-              echo "  ⚠ MIRROR LAGGING: $remote is $BEHIND commits behind origin"
+              echo "  MIRROR LAGGING: $remote is $BEHIND commits behind origin"
             elif [ "$BEHIND" = "0" ] 2>/dev/null; then
-              echo "  ✓ Mirror is up to date"
+              echo "  Mirror is up to date"
             fi
           else
             echo "  Could not find master branch on $remote"
@@ -268,8 +268,8 @@ mirror:check:
           echo "--- Skipping mirror: $remote (not configured) ---"
         fi
       done
-    - echo ""
-    - echo "Mirror check complete."
+    - 'echo ""'
+    - 'echo "Mirror check complete."'
   rules:
     - if: '$CI_PIPELINE_SOURCE == "schedule"'
       when: always
