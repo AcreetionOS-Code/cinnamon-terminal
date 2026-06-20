@@ -17,6 +17,7 @@
     "--talk-name=org.gnome.Shell",
     "--talk-name=org.freedesktop.Flatpak",
     "--talk-name=org.freedesktop.secrets",
+    "--own-name=org.acreetionos.cinnamon.Terminal",
     "--own-name=org.acreetionos.cinnamon.Terminal.*",
     "--env=GSETTINGS_SCHEMA_DIR=/app/share/glib-2.0/schemas"
   ],
