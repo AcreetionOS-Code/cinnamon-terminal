@@ -87,7 +87,8 @@ test:linux:
 package:arch:
   stage: package
   before_script:
-    - PKGVER="${CI_COMMIT_TAG#v}"; PKGVER="${PKGVER:-3.97.1}" && tar -czf "cinnamon-terminal-$PKGVER.tar.gz" --transform "s|^\./|cinnamon-terminal-$PKGVER/|" -C "$CI_PROJECT_DIR" .
+    - PKGVER="${CI_COMMIT_TAG#v}"; PKGVER="${PKGVER:-3.97.1}"
+    - tar -czf "cinnamon-terminal-$PKGVER.tar.gz" --transform "s|^\./|cinnamon-terminal-$PKGVER/|" --exclude-vcs -C "$CI_PROJECT_DIR" . || true
   script:
     - makepkg -s --noconfirm
   artifacts:
