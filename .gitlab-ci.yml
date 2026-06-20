@@ -91,10 +91,7 @@ package:arch:
       meson ninja gettext glib2 gtk3 gtk4 libadwaita
       vte3 vte4 pcre2 gsettings-desktop-schemas
       libxslt itstool appstream-glib
-    - PKGVER="${CI_COMMIT_TAG#v}"; PKGVER="${PKGVER:-3.97.1}"
-    - ln -sf "$CI_PROJECT_DIR" "../cinnamon-terminal-$PKGVER"
-    - tar -chzf "cinnamon-terminal-$PKGVER.tar.gz" -C .. "cinnamon-terminal-$PKGVER"
-    - rm -f "../cinnamon-terminal-$PKGVER"
+    - PKGVER="${CI_COMMIT_TAG#v}"; PKGVER="${PKGVER:-3.97.1}" && tar -czf "cinnamon-terminal-$PKGVER.tar.gz" --transform "s|^\./|cinnamon-terminal-$PKGVER/|" -C "$CI_PROJECT_DIR" .
   script:
     - makepkg -s --noconfirm
   artifacts:
