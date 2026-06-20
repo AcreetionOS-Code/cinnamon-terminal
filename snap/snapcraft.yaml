@@ -1,0 +1,98 @@
+name: cinnamon-terminal
+base: core24
+version: '3.97.1'
+version-script: |
+  git describe --tags 2>/dev/null || echo "3.97.1"
+summary: Cinnamon Terminal — GNOME Terminal fork for Cinnamon Desktop
+description: |
+  Cinnamon Terminal is a fork of GNOME Terminal focused on
+  Cinnamon Desktop integration. It tracks upstream GNOME Terminal
+  while adapting for the Cinnamon desktop environment.
+
+  Features:
+    - Full terminal emulation with VTE
+    - GTK4 and libadwaita interface
+    - Tabbed terminal sessions
+    - Profile management
+    - Search provider integration
+    - Nautilus integration (optional)
+
+grade: stable
+confinement: strict
+compression: lzo
+
+apps:
+  cinnamon-terminal:
+    command: usr/bin/gnome-terminal
+    extensions: [gnome]
+    desktop: usr/share/applications/org.gnome.Terminal.desktop
+    common-id: org.gnome.Terminal
+    environment:
+      # Tell the terminal where to find its schemas
+      GSETTINGS_SCHEMA_DIR: $SNAP/usr/share/glib-2.0/schemas
+    plugs:
+      - desktop
+      - desktop-legacy
+      - wayland
+      - x11
+      - network
+      - network-bind
+      - home
+      - removable-media
+      - unity7
+      - opengl
+      - audio-playback
+      - process-control
+      - system-observe
+
+  # Server mode for the terminal service
+  gnome-terminal-server:
+    command: usr/libexec/gnome-terminal-server
+    extensions: [gnome]
+    environment:
+      GSETTINGS_SCHEMA_DIR: $SNAP/usr/share/glib-2.0/schemas
+    plugs:
+      - desktop
+      - desktop-legacy
+      - wayland
+      - x11
+      - network
+      - network-bind
+      - home
+      - unity7
+      - opengl
+      - process-control
+      - system-observe
+
+parts:
+  cinnamon-terminal:
+    source: https://gitlab.acreetionos.org/acreetionos-code/cinnamon-terminal.git
+    source-type: git
+    source-tag: 'v3.97.1'
+    plugin: meson
+    meson-parameters:
+      - --prefix=/usr
+      - -Dbuildtype=release
+      - -Ddocs=true
+      - -Dnautilus_extension=true
+      - -Dsearch_provider=true
+    build-packages:
+      - gettext
+      - libxml2-utils
+      - xsltproc
+      - itstool
+      - appstream-util
+    stage-packages:
+      - libpcre2-8-0
+      - libuuid1
+    parse-info:
+      - usr/share/metainfo/org.gnome.Terminal.metainfo.xml
+    build-environment:
+      - PKG_CONFIG_PATH: ""
+    organize:
+      usr/libexec/*: usr/libexec/
+    prime:
+      - -usr/lib/gnome-terminal/*
+      - -usr/share/man/*
+      - -usr/share/doc/*
+      - -usr/lib/systemd/*
